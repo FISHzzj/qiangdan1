@@ -1,0 +1,156 @@
+<div class="region-goods-details row">
+    <div class="region-goods-left col-sm-2">
+        基本信息
+    </div>
+    <div class="region-goods-right col-sm-10">
+        <div class="form-group">
+            <label class="col-sm-2 control-label">排序</label>
+            <div class="col-sm-9 col-xs-12">
+                {ife 'goods' $item}
+                    <input type="text" name="displayorder" id="displayorder" class="form-control" value="{$item['displayorder']}" />
+                    <span class='help-block'>数字越大，排名越靠前,如果为空，默认排序方式为创建时间</span>
+                {else}
+                    <div class='form-control-static'>{$item['displayorder']}</div>
+                {/if}
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label must">商品名称</label>
+            {ife 'goods' $item}
+                <div class="col-sm-7"  style="padding-right:0;" >
+                    <input type="text" name="goodsname" id="goodsname" class="form-control" value="{$item['title']}" data-rule-required="true" />
+                </div>
+                <div class="col-sm-2" style="padding-left:5px">
+                    <input type="text" name="unit" id="unit" class="form-control" value="{$item['unit']}" placeholder="单位, 如: 个/件/包"  />
+                </div>
+            {else}
+                <div class='form-control-static'>{$item['title']}</div>
+            {/if}
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label must">商品订单归属</label>
+            {ife 'goods' $item}
+                <div class="col-sm-7"  style="padding-right:0;" >
+                    <input type="text" name="guishu" id="guishu" class="form-control" value="{$item['guishu']}" data-rule-required="true" />
+                </div>
+            {else}
+                <div class='form-control-static'>{$item['guishu']}</div>
+            {/if}
+        </div>
+    </div>
+</div>
+
+    <!--商品信息-->
+    <div class="region-goods-details row">
+        <div class="region-goods-left col-sm-2">
+            商品信息
+        </div>
+
+        <div class="region-goods-right col-sm-10">
+            <div class="form-group price">
+                <label class="col-sm-2 control-label">商品价格</label>
+                <div class="col-sm-9 col-xs-12">
+                    {ife 'goods' $item}
+                        <div class="input-group">
+                            <input type="text" name="marketprice" id="marketprice" class="form-control" value="{$item['marketprice']}" />
+                            <span class="input-group-addon">元</span>
+                        </div>
+                        ~~
+                        <div class="input-group">
+                            <input type="text" name="marketprice2" id="marketprice2" class="form-control" value="{$item['marketprice2']}" />
+                            <span class="input-group-addon">元</span>
+                        </div>
+                        <span class='help-block'>尽量填写完整，有助于于商品销售的数据分析</span>
+                    {else}
+                        <div class='form-control-static'>价格：{$item['marketprice']} 元 ~~ {$item['marketprice2']} 元</div>
+                    {/if}
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label must">商品图片</label>
+                <div class="col-sm-9 col-xs-12 gimgs">
+                    {ife 'goods' $item}
+                        <!-- {php echo tpl_form_field_multi_image2('thumbs',$piclist)} -->
+                        {php echo tpl_form_field_image2('thumbs', $item['thumb'])}
+                        <!-- <span class="help-block">您可以拖动图片改变其显示顺序 </span> -->
+                    {else}
+                        <!-- {loop $piclist $p}
+                            <a href='{php echo tomedia($p)}' target='_blank'>
+                                <img src="{php echo tomedia($p)}" style='height:100px;border:1px solid #ccc;padding:1px;float:left;margin-right:5px;' />
+                            </a>
+                        {/loop} -->
+                        <a href="{php echo tomedia($item['thumb'])}" target='_blank'>
+                            <img src="{php echo tomedia($item['thumb'])}" style='height:100px;border:1px solid #ccc;padding:1px;float:left;margin-right:5px;' />
+                        </a>
+                    {/if}
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="region-goods-details row">
+    <div class="region-goods-left col-sm-2">
+        商品属性
+    </div>
+    <div class="region-goods-right col-sm-10">
+        <div class="form-group">
+            <label class="col-sm-2 control-label">特殊商品</label>
+            <div class="col-sm-9 col-xs-12">
+                {ife 'goods' $item}
+                    <label class="radio-inline"><input type="radio" name="type" value="0" {if empty($item['type'])}checked="true"{/if}/> 否</label>
+                    <label class="radio-inline"><input type="radio" name="type" value="1" {if $item['type'] == 1}checked="true"{/if}   /> 是</label>
+                {else}
+                    <div class='form-control-static'>{if empty($item['type'])}否{else}是{/if}</div>
+                {/if}
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">上架</label>
+            <div class="col-sm-9 col-xs-12">
+                {ife 'goods' $item}
+                    <label class="radio-inline"><input type="radio" name="status" value="0" {if empty($item['status'])}checked="true"{/if}/> 否</label>
+                    <label class="radio-inline"><input type="radio" name="status" value="1" {if $item['status'] == 1}checked="true"{/if}   /> 上架</label>
+                {else}
+                    <div class='form-control-static'>{if empty($item['status'])}否{else}是{/if}</div>
+                {/if}
+            </div>
+        </div>
+
+        <!-- 等级大厅7244追加 -->
+        <div class="form-group">
+            <label class="col-sm-2 control-label">等级大厅</label>
+            <div class="col-sm-8 col-xs-12">
+                {ife 'goods' $item}
+                    <select id="sd_hall"  name='sd_hall' class="form-control select2" style='width:605px;' >
+                        <option value="0">默认大厅</option>
+                        {loop $levelHall $hall}
+                            <option value="{$hall['level']}" {if $hall['level'] == $item['sd_hall']} selected="" {/if} >{$hall['levelname']}</option>
+                        {/loop}
+                    </select>
+                {else}
+                    <div class='form-control-static ops'>
+                        {loop $levelHall $hall}
+                            <a>{$hall['levelname']}</a>
+                        {/loop}
+                    </div>
+                {/if}
+            </div>
+        </div>
+    </div>
+</div>
+
+<script language="javascript">
+    require(['jquery.ui'],function(){
+        $('.multi-img-details').sortable({scroll:'false'});
+        $('.multi-img-details').sortable('option', 'scroll', false);
+    })
+</script>
+
+{if empty($new_area)}
+    {template 'shop/selectareas'}
+{else}
+    {template 'shop/selectareasNew'}
+{/if}

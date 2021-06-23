@@ -1,0 +1,124 @@
+{template '_header'}
+
+<div class="page-header">
+
+    当前位置：<span class="text-primary">客服设置</span>
+
+</div>
+
+<div class="page-content">
+
+    <form {ife 'customer_service.customer_set' $item}action="" method="post"{/if} class="form-horizontal form-validate" enctype="multipart/form-data">
+
+    	<input type="hidden" name="id" value="1">
+
+        <div class="form-group">
+
+            <label class="col-lg control-label">客服名称</label>
+
+            <div class="col-sm-9 col-xs-12">
+
+                {ife 'customer_service.customer_set' $item}
+
+
+                    <input type="text"  name="name" class="form-control" value="{$item['name']}"/>
+
+                {else}
+
+                <div class='form-control-static'>{{$item['content'][4]}} 次</div>
+
+                {/if}
+
+            </div>
+
+        </div>
+
+        <div class="form-group">
+
+            <label class="col-lg control-label">客服头像</label>
+
+            <div class="col-sm-9 col-xs-12">
+
+                {ife 'customer_service.customer_set' $item}
+
+                    {php echo tpl_form_field_image2('images', $item['images'])}
+
+                    <span class='help-block'>建议尺寸:150 * 150</span>
+
+                {else}
+
+                    {if !empty($item['images'])}
+
+                        <a href='{php echo tomedia($item['images'])}' target='_blank'>
+
+                            <img src="{php echo tomedia($item['images'])}" style='width:100px;border:1px solid #ccc;padding:1px'/>
+
+                        </a>
+
+                    {/if}
+
+                {/if}
+
+            </div>
+
+        </div>
+
+        <div class="form-group">
+
+            <label class="col-lg control-label">简介</label>
+
+            <div class="col-sm-9 col-xs-12">
+
+                {ife 'customer_service.customer_set' $item}
+
+                    {php echo tpl_ueditor('info',$item['info'])}
+
+                {else}
+
+                    <textarea id='content' style='display:none'>{$item['info']}</textarea>
+
+                    <a href='javascript:preview_html("#detail")' class="btn btn-default">查看内容</a>
+
+                {/if}
+
+            </div>
+
+        </div>
+
+        <div class="form-group">
+
+            <label class="col-lg control-label"></label>
+
+            <div class="col-sm-9 col-xs-12">
+
+                {ife 'customer_service.customer_set' $item}
+
+                <input type="submit" value="提交" class="btn btn-primary"/>
+
+                {/if}
+
+            </div>
+
+        </div>
+
+    </form>
+
+</div>
+
+
+
+<script language='javascript'>
+
+    function formcheck() {
+
+        return true;
+
+    }
+
+</script>
+
+
+
+{template '_footer'}
+
+<!--efwww_com-->

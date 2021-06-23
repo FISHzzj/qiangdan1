@@ -1,0 +1,1017 @@
+
+{template '_header'}
+
+<link rel="stylesheet" href="../addons/wx_shop/static/css/flex.css">
+
+<!-- <link rel="stylesheet" href="../addons/wx_shop/plugin/red_paper/template/mobile/default/static/css/redbao-box.css"> -->
+
+<!-- 表情-------------------------------------------------- -->
+
+<!-- <link href="../addons/wx_shop/plugin/red_paper/template/mobile/default/static/css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
+
+<!-- <link rel="stylesheet" href="../addons/wx_shop/plugin/red_paper/template/mobile/default/static/css/reset.css"> -->
+
+<script type="text/javascript" src="../addons/wx_shop/template/mobile/default/static/jq/jquery-1.12.2.js"></script>
+
+<script src="../addons/wx_shop/template/mobile/default/static/js/ajaxfileupload.js"></script>
+
+<style>
+html,body{
+    background-color: #f3f3f3;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 1189091 */
+  src: url('//at.alicdn.com/t/font_1189091_sg8lrsvk4bo.eot');
+  src: url('//at.alicdn.com/t/font_1189091_sg8lrsvk4bo.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1189091_sg8lrsvk4bo.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1189091_sg8lrsvk4bo.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1189091_sg8lrsvk4bo.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1189091_sg8lrsvk4bo.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+</style>
+<style>
+    body,.fui-page.fui-page-current, .fui-page-group.fui-page-current{overflow: initial !important;background: none !important;}
+    .fui-page, .fui-page-group{height: auto;min-height: 100%;background: #f3f3f3;}
+    ul{
+        list-style: none;
+    }
+    .martop{
+        width: 100%;
+        height: 2.2rem;
+    }
+    .head_box{
+        width: 100%;
+        height: 2.2rem;
+        background: #353535;
+        color: #fff;
+        padding: 0 .8rem;
+        position: fixed;
+        top: 0;
+        z-index: 99;
+    }
+    .head_box i{
+        color: #fff;
+    }
+    .notice_box{
+        width: 100%;
+        height: 2.5rem;
+    }
+    .notice_ul li{
+        width: 33.3333%;
+        text-align: center;
+    }
+    /* 聊天界面---------------------------------------------------------- */
+    .chat_box{
+        width: 100%;
+        padding-bottom: 2.5rem;
+        background: #f3f3f3;
+        /* max-height:85%; */
+        /* background: yellow; */
+    }
+    .chat_div{
+        width: 100%;
+        /* height: 100%; */
+        /* max-height: 29rem; */
+        /* overflow:auto; */
+        padding: 0 .4rem;
+        background: #f3f3f3;
+    }
+    .lita{
+        width: 100%;
+        margin-bottom: 1.75rem;
+    }
+    .lita .lita_img{
+        width: 2rem;
+        height: 2rem;
+        margin-top: .6rem;
+    }
+    .lita_img img{
+        width: 100%;
+        height: 100%;
+        display: block;
+        /*background: red;*/
+    }
+    .lita_contenr {
+        margin: 0 .2rem;
+    }
+    .lita .lita_contenr>p{
+        margin: 0 .75rem;
+    }
+    .redbao{
+        width: 11.75rem;
+        height: 4rem;
+        background: url(../addons/wx_shop/plugin/red_paper/template/mobile/default/static/images/hongbaoa.png) no-repeat ;
+        background-size: 100% 100%;
+        /* background-position: 0 -10px; */
+        border-radius: .5rem;
+        position: relative;
+    }
+    .redbao-he{
+        padding: .6rem 0  0 3.05rem ;
+        color: #fff;
+    }
+    .tle .redbao-he{
+        padding: .6rem 3.05rem 0  0  ;
+        text-align: right;
+        color: #fff;
+    }
+    .redbao .butt-p{
+        position: absolute;
+        bottom: 0;
+        padding: 0  .7rem;
+        color: #c4c4c4;
+    }
+    .tle p{
+        right: 0;
+    }
+    .redright_box .nameid{
+        text-align: right;
+    }
+    /* 底部功能-------------------------------------------- */
+    .bottom_box{
+        width: 100%;
+        height: 2.5rem;
+        background: #f5f5f5;
+        padding: 0 .25rem;
+        border-bottom: 1px solid #e2e2e4;
+        border-top: 1px solid #e2e2e4;
+    }
+    .text_box{
+        width: 85%;
+        height: 100%;
+    }
+    .text_box .input{
+        width: 100%;
+        height: 1.85rem;
+        border-radius: .2rem;
+        outline: none;
+        border:1px  solid #b3b3b3;
+        font-size: .8rem;
+        margin-bottom: 0;
+        padding-top: .4rem;
+    }
+    .yuyin_i{
+        font-size: 1.5rem;
+    }
+    .function_box{
+        /*width: 3.4rem;*/
+        width: 2rem;
+    }
+    /* 显示右边的消息 */
+    .flex-ends{
+        justify-content: flex-end;
+        -webkit-justify-content: flex-end;
+    }
+    .lita_contenr .tle{
+        background: url(../addons/wx_shop/plugin/red_paper/template/mobile/default/static/images/hongbaof.png) no-repeat ;
+        background-size: 100% 100%;
+    }
+    /* 左边显示的文本聊天和图片----------------------------------------------- */
+    .news_box{
+    }
+    .news_box .news_img{
+        padding: .3rem;
+    }
+    .news_box .news_box_img{
+        width: 100%;
+        height: 100%;
+        display:block;
+    }
+    .news_box p{
+        padding: .3rem .6rem .3rem .75rem;
+        background: #fff; 
+        max-width: 12.2rem;
+        word-wrap: break-word;
+        border-radius: .2rem;
+    }
+    .news_box .sanjiao{
+        margin-top: .3rem;
+        width: 0px;                 /*  宽高设置为0，很重要，否则达不到效果 */
+		height: 0px;
+		border: 0.3rem  solid #fff;
+		border-bottom-color: transparent;    /* 设置透明背景色 */
+		border-left-color: transparent;
+		border-top-color: transparent;
+    }
+    .news_box .rightsan{
+        border-left-color: #afe56e;
+        border-right-color:transparent; 
+    }
+    .redright_box .news_box p{
+        background: #afe56e;
+    }
+    .margino0{
+        margin: 0;
+    }
+    .zhuye-box{
+        display: block;
+    }
+    .left-bao-guan{
+        background: url(../addons/wx_shop/plugin/red_paper/template/mobile/default/static/images/hongbao.png) no-repeat ;
+        background-size: 100% 100%;
+    }
+    .lita_contenr .rigt-bao-guan{
+        background: url(../addons/wx_shop/plugin/red_paper/template/mobile/default/static/images/hongbaoc.png) no-repeat ;
+        background-size: 100% 100%;
+    }
+    .uleae-box {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+    .uleae-box .funct-div{
+        width: 100%;
+        background: #f5f5f5;
+        text-align: center;
+        height:0;
+        padding:0 1.3rem;
+        display: none;
+    }
+    .funct-div .funct-img{
+        width: 3rem;
+        height: 3rem;
+        border-radius: .5rem;
+        border: 1px solid #868688;
+        display: block;
+        margin-bottom: .5rem;
+    }
+    /* .laet{
+        max-height: 19rem;
+    } */
+    .fason_but{
+        width: 100%;
+        height: 1.3rem;
+        border-radius: .2rem;
+        background: none;
+        border: 1px solid #000;
+        background: #fff;
+        display: none;
+    }
+    .red_xq{
+        opacity: 0;
+    }
+    #facebox{
+        top: -252.625px !important;
+    }
+    /* 放表情的地方------------------------------------------------------------------------------------------------------------------- */
+    .emre_bq-box{
+        width: 100%;
+        /* height: 10.7rem; */
+        background: #f3f3f3;
+        padding: 0 .75rem;
+        /* display: none; */
+    }
+    #facebox tr{
+        display: flex;
+        flex-wrap: wrap;
+    }
+</style>
+<style>
+    .setup_box {
+        display: none;
+    }
+    .hade_box {
+        width: 100%;
+        height: 2.2rem;
+        background: #363636;
+        color: #ffffff;
+        line-height: 2.2rem;
+        padding: 0 .85rem;
+    }
+    .hade_box i {
+        width: 1rem;
+    }
+    .hade_box span {
+        font-size: .8rem;
+    }
+    /* 成员头像-------------------------------------------------------------------- */
+    .meb_img_box {
+        width: 100%;
+        padding: .75rem .7rem .75rem .75rem;
+        background: #fff;
+        margin-top: .75rem;
+    }
+    .meb_img_box .meb_img_li {
+        width: 2.8rem;
+        height: 3.7rem;
+            /* background: yellow; */
+        margin-left: 1rem;
+        margin-bottom: .6rem;
+        text-align: center;
+    }
+    .meb_img_box .meb_img_li img {
+        width: 2.8rem;
+        height: 2.8rem;
+        display: block;
+        background: yellow;
+        border-radius: .3rem;
+    }
+    .setup_xq_box {
+    }
+    .setup_xq_box .setup_xq_ul {
+        background: #fff;
+    }
+    .setup_xq_box .setup_xq_li {
+        width: 100%;
+        height: 2.2rem;
+        background: #fff;
+        border-bottom: 1px solid #dcdcdc;
+        padding: 0 .7rem;
+    }
+    .border {
+        width: 100%;
+        height: 1rem;
+        background: #efeff4;
+    }
+    /* .yuamat{
+    border: 1rem solid #efeff4;
+    } */
+    .setup_xq_span {
+        color: #7f7f7f;
+    }
+    .setup_xq_span i {
+            /* font-weight: bold; */
+        margin-left: .2rem;
+    }
+    /* ------------------------------------------------------------------------------------------- */
+    .div1 {
+        width: 2.6rem;
+        height: 1.6rem;
+        border-radius: 50px;
+        position: relative;
+    }
+    .div2 {
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 48px;
+        position: absolute;
+        background: white;
+        box-shadow: 0px 2px 4px rgba(0,0,0,0.4);
+    }
+    .open1 {
+        background: rgba(0,184,0,0.8);
+    }
+    .open2 {
+        top: 0.05rem;
+        right: 0.05rem;
+    }
+    .close1 {
+        background: rgba(255,255,255,0.4);
+        border: 0.15rem solid rgba(0,0,0,0.15);
+        border-left: transparent;
+    }
+    .close2 {
+        left: 0;
+        top: -0.1rem;
+        border: 0.1rem solid rgba(0,0,0,0.1);
+    }
+</style>
+<!-- 群详情样式 -->
+<style>
+    .hade_box {
+        width: 100%;
+        height: 2.2rem;
+        background: #363636;
+        color: #ffffff;
+        line-height: 2.2rem;
+        padding: 0 .85rem;
+    }
+    .hade_box i {
+        width: 1rem;
+    }
+    .hade_box span {
+        font-size: .8rem;
+    }
+    /* 成员头像-------------------------------------------------------------------- */
+    .meb_img_box {
+        width: 100%;
+        padding: .75rem .7rem .75rem .75rem;
+        background: #fff;
+        margin-top: .75rem;
+    }
+    .meb_img_box .meb_img_li {
+        width: 2.8rem;
+        height: 3.7rem;
+            /* background: yellow; */
+        margin-left: 1rem;
+        margin-bottom: .6rem;
+        text-align: center;
+    }
+    .meb_img_box .meb_img_li img {
+        width: 2.8rem;
+        height: 2.8rem;
+        display: block;
+        background: yellow;
+        border-radius: .3rem;
+    }
+    .setup_xq_box {
+    }
+    .setup_xq_box .setup_xq_ul {
+        background: #fff;
+    }
+    .setup_xq_box .setup_xq_li {
+        width: 100%;
+        height: 2.2rem;
+        background: #fff;
+        border-bottom: 1px solid #dcdcdc;
+        padding: 0 .7rem;
+    }
+    .border {
+        width: 100%;
+        height: 1rem;
+        background: #efeff4;
+    }
+    /* .yuamat{
+       border: 1rem solid #efeff4;
+    } */
+    .setup_xq_span {
+        color: #7f7f7f;
+    }
+    .setup_xq_span i {
+       /* font-weight: bold; */
+        margin-left: .2rem;
+    }
+    /* ------------------------------------------------------------------------------------------- */
+    .div1 {
+        width: 2.6rem;
+        height: 1.6rem;
+        border-radius: 50px;
+        position: relative;
+    }
+    .div2 {
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 48px;
+        position: absolute;
+        background: white;
+        box-shadow: 0px 2px 4px rgba(0,0,0,0.4);
+    }
+    .open1 {
+        background: rgba(0,184,0,0.8);
+    }
+    .open2 {
+        top: 0.05rem;
+        right: 0.05rem;
+    }
+    .close1 {
+        background: rgba(255,255,255,0.4);
+        border: 0.15rem solid rgba(0,0,0,0.15);
+        border-left: transparent;
+    }
+    .close2 {
+        left: 0;
+        top: -0.1rem;
+        border: 0.1rem solid rgba(0,0,0,0.1);
+    }
+</style>
+<!-- <script type="text/javascript" src="../addons/wx_shop/template/mobile/default/static/jq/jquery-1.12.2.js"></script>
+<script src="../addons/wx_shop/template/mobile/default/static/js/ajaxfileupload.js"></script> -->
+<script type="text/javascript" src="../addons/wx_shop/template/mobile/default/static/jq/jquery.qqFace.js"></script>
+<div class="fui-page fui-page-current">
+    <div class="martop"></div>
+    <div class="zhuye-box">
+        <!-- 头部 -->
+        <div class="head_box flex flex-jcsb flex-center-align">
+            <i class="iconfont back">&#xe6b0;</i>
+                客服：{$name}
+            <p></p>
+            <!-- <i class="iconfont gosetup">&#xe628;</i> -->
+        </div>
+        <!-- 聊天界面-->
+        <div class="chat_box">
+            <div class="chat_div">
+                <div  style="height: 20px;">&nbsp;</div>
+                <!-- 别人发的消息-->
+                <!-- {loop $list $ress}
+                    <div class="lita flex">
+                        <div class="lita_img">
+                            <img src="../attachment/{$img}" alt="" onerror="this.src='../addons/wx_shop/static/images/noface.png'">
+                        </div>
+                        <div class="lita_contenr margino0">
+                            <p>{$name}</p>
+                            <div class="news_box flex">
+                                <div class="sanjiao"></div>
+                                {$ress['text']}
+                            </div>
+                        </div>
+                    </div>
+                {/loop} -->
+                <!--客服简介-->
+                <div class="lita flex">
+                    <div class="lita_img">
+                        <img src="{$img}" alt="" onerror="this.src='../addons/wx_shop/static/images/noface.png'">
+                    </div>
+                    <div class="lita_contenr margino0">
+                        <p>{$kefu['name']}</p>
+                        <div class="news_box flex">
+                            <div class="sanjiao"></div>
+                            {$kefu['info']}
+                        </div>
+                    </div>
+                </div>
+                {loop $lists $res}
+                    <!-- 别人发的消息-->
+                    {if $res['source'] == 1}
+                        <div class="lita flex">
+                            <div class="lita_img">
+                                <img src="{$img}" alt="">
+                            </div>
+                            <div class="lita_contenr margino0">
+                                <p>{$name}</p>
+                                <div class="news_box flex">
+                                    <div class="sanjiao"></div>
+                                    {if $res['type'] == 2}
+                                        <p class="news_img">
+                                            <img class="news_box_img" src="../attachment/{$res['images']}" alt="">
+                                        </p>
+                                    {else}
+                                        <p>{$res['text']}</p>
+                                    {/if}
+                                </div>
+                            </div>
+                        </div>
+                    {else}
+                    <!-- 自己发的消息 -->
+                        <div class="lita flex flex-ends">
+                            <div class="lita_contenr redright_box margino0">
+                                <p class="nameid">{$myname}</p>
+                                <div class="news_box flex">
+                                    {if $res['type'] == 2}
+                                        <p class="news_img">
+                                            <img class="news_box_img" src="../attachment/{$res['images']}" alt="">
+                                        </p>
+                                    {else}
+                                        <p>{$res['text']}</p>
+                                    {/if}    
+                                    <div class="sanjiao rightsan"></div>
+                                </div>
+                            </div>
+                            <div class="lita_img">
+                                <img src="{$myavatar}" alt="">
+                            </div>
+                        </div>
+                    {/if}
+                {/loop}
+                <!-- <div class="lita flex flex-ends">
+                        <div class="lita_contenr redright_box margino0">
+                            <p class="nameid">{$myname}</p>
+                            <div class="news_box flex">
+                                <p>111111</p>    
+                                <div class="sanjiao rightsan"></div>
+                            </div>
+                        </div>
+                        <div class="lita_img">
+                            <img src="{$myavatar}" alt="">
+                        </div>
+                    </div> -->
+                <div id="show"></div>
+            </div>
+        </div>
+        <!-- 底部功能-->
+        <input type="hidden" id='suppid' value="{$suppid}">
+        <div class="uleae-box">
+            <div class="bottom_box flex flex-jcsb flex-center-align">
+                <!-- <div class="yuyin_box">
+                    <i class="yuyin_i iconfont">&#xe608;</i>
+                </div> -->
+                <!-- <div class="comment flex"> -->
+                <div class="com_form text_box flex flex-center-align">
+                    <textarea class="input" id="saytext" name="saytext"></textarea>
+                </div>
+                <p class="flex function_box flex-jcsb flex-center-align">
+                    <input type="button" class="sub_btn fason_but" value="提交">
+                    <!-- <span class="emotion">表情</span> -->
+                    <!-- <i class="yuyin_i iconfont emotion" >&#xe6c1;</i> -->
+                    <i class="yuyin_i iconfont ledea" id="choice_i">&#xe60f;</i>
+                </p>
+                <!-- </div> -->
+                <!-- <div class="text_box flex flex-center-align">
+                    <input type="text" id="text_box_input" >
+                </div>
+                <div class="function_box flex flex-jcsb flex-center-align">
+                    <i class="yuyin_i iconfont" >&#xe6c1;</i>
+                    <i class="yuyin_i iconfont ledea" id="choice_i">&#xe60f;</i>
+                    <button class="fason_but">发送</button>
+                </div> -->
+            </div>
+            <div class="funct-div">
+                <ul class="flex flex-jcsb">
+                    <li class="funct-li ">
+                        <input type="file" name="imgFile0" id="imgFile0" style="display: none">
+                        <input type="hidden" name="images" class="images" >
+                        <img class="funct-img img" src="" alt="">
+                        <p>照片</p>
+                    </li>
+                    <!-- <li class="funct-li">
+                        <img class="funct-img" src="" alt="">
+                        <p>拍摄</p>
+                    </li> -->
+                </ul>
+            </div>
+            <div class="emre_bq-box">
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    if (typeof console == "undefined") {    this.console = { log: function (msg) {  } };}
+    // 如果浏览器不支持websocket，会使用这个flash自动模拟websocket协议，此过程对开发者透明
+    // WEB_SOCKET_SWF_LOCATION = "/swf/WebSocketMain.swf";
+    // 开启flash的websocket debug
+    WEB_SOCKET_DEBUG = true;
+    var ws, name, client_list={};
+    var roomid = "{$roomid}";
+    // 连接服务端
+    function connect() {
+        // 创建websocket
+        ws = new WebSocket("ws://"+document.domain+":58120");
+        // 当socket连接打开时，输入用户名
+        ws.onopen = onopen;
+        // 当有消息时根据消息类型显示不同信息
+        ws.onmessage = onmessage; 
+        ws.onclose = function() {
+            console.log("连接关闭，定时重连");
+            connect();
+        };
+        ws.onerror = function() {
+            console.log("出现错误");
+        };
+    }
+
+    // 连接建立时发送登录信息
+    function onopen()
+    {
+        // if(!name)
+        // {
+        //     show_prompt();
+        // }
+        // 登录
+        var name = "{php echo $member['id']}";
+        var login_data = '{"type":"supperud","uniacid":"{$_W['uniacid']}","mid":"{$member['id']}","source":"1"}';
+        // console.log("websocket握手成功，发送登录数据:"+login_data);
+        ws.send(login_data);
+    }
+
+    // 服务端发来消息时
+    function onmessage(e)
+    {
+        // console.log(e.data);
+        var data = JSON.parse(e.data);
+        switch(data['type']){
+            // 服务端ping客户端
+            case 'ping':
+                ws.send('{"type":"pong"}');
+                break;
+            case 'tosayall':
+                // alert(222222);
+                console.log(data)
+                if(data.types==2){
+                    right_xiaoxi(data)
+                }else if(data.types==1){
+                    left_xiaoxi(data)
+                }
+                break;
+            // 用户退出 更新用户列表
+            case 'logout':
+                //{"type":"logout","client_id":xxx,"time":"xxx"}
+                say(data['from_client_id'], data['from_client_name'], data['from_client_name']+' 退出了', data['time']);
+                delete client_list[data['from_client_id']];
+                flush_client_list();
+        }
+    }
+
+    connect();
+
+    function sendinfo(data){
+        data =JSON.stringify(data);
+        ws.send(data);
+    }
+
+    $(".head_box .back").on("click",function(){
+        history.back(-1)
+    })
+
+    $('.fason_but,#choice_i').click(function () {
+        gundondao()
+    });
+
+    function gundondao(){
+        var milehe = $('.chat_div').height()
+        $('html, body').animate({scrollTop:milehe+2000}, 'slow');
+        $('.martop').show()
+        return false;
+    }
+
+    $('.back').click(function(){
+        $('.redbao-box').hide()
+        $('.sendout').hide()
+        $('.zhuye-box').show()
+        $("#geshu,#jiner,#leidian").val('') 
+        $('.plug_div .plug_but').removeClass('backgs')
+        $('.money span').text('0.00')
+    })
+
+    $('.sub_btn').on('click',function(){
+        var xexae   =  $('#saytext').val();
+        var suppid  =  $('#suppid').val();
+        var type    =  1;
+        if(xexae == '' || xexae == undefined){
+            FoxUI.toast.show('提交信息不能为空');
+            return;
+        }
+        $('#saytext').val("");
+        var id = $(this).attr('data-href');
+        $.ajax({
+            url:"{php echo mobileUrl('member/customer_service/tosay')}",
+            type:"post",
+            dataType:"json",
+            data:{suppid:suppid,text:xexae,type:type},
+            success:function(data){
+                if(data.status == 1){
+                    // var res = data.result;
+                    // var sub = '{"type":"private","uniacid":"'+w.uniacid+'","uid":"'+res.uid+'","text":"'+res.text+'","room_id":"'+res.gid+'","types":"2","nickname":"'+res.nickname+'","avatar":"'+res.avatar+'","times":"'+res.times+'","mid":"'+uid+'"}';
+                    var data          = data.result.data;
+                    data['types']     = data['type'];
+                    data['type']      = 'tosayall';
+                    sendinfo(data)
+                }else{
+                    alert(data.result.message);
+                }
+            }
+        });
+        $(".fason_but").hide()
+        $(".function_box .ledea").show()
+    })
+
+    $('.img').click(function (){
+        $('#imgFile0').click();
+    })
+
+    $('#imgFile0').change(function(e){
+        var reader = new FileReader();
+        var file = e.target.files[0];
+        var imgPath = $(e.currentTarget).val();
+        //console.log(imgPath);
+        if (imgPath!="") {
+            //判断上传文件的后缀名
+            var strExtension = imgPath.substr(imgPath.lastIndexOf('.') + 1);
+            if ( !/jpe?g|gif|png|bmp/.test( strExtension.toLowerCase() ) ){
+                alert("请选择图片文件");
+                return;
+            }
+            $.ajaxFileUpload({
+                url: "{php echo mobileUrl('util/uploader')}",
+                data: {file: "imgFile0",type:'update',uid:"{$member['id']}"},
+                secureuri: false, 
+                fileElementId: 'imgFile0', 
+                dataType: 'json', 
+                success: function(res, status) {
+                    console.log(res)
+                    var images     = res.filename;
+                    var suppid        =  $('#suppid').val();
+                    $.ajax({
+                        url:"{php echo mobileUrl('member/customer_service/tosay')}",
+                        type:"post",
+                        dataType:"json",
+                        data:{suppid:suppid,images:images,type:2},
+                        success:function(data){
+                            if(data.status == 1){
+                                var data          = data.result.data;
+                                data['types']     = data['type'];
+                                data['type']      = 'tosayall';
+                                sendinfo(data)
+                                gundondao()
+                            }
+                        }
+                    });
+                }, error: function(data, status, e) {
+                    alert('上传失败!');
+                }
+            });
+        }
+    })
+
+    // 点击输入框就出现---------------------------------------------------
+    $("#saytext").on(" input propertychange",function(){
+        $(".emre_bq-box,.funct-div").hide()
+        $(".emotion").addClass('ture')
+        if($("#saytext").val()==""){
+            $(".fason_but").hide()
+            $(".function_box .ledea").show()
+        }else{
+            $(".fason_but").show()
+            $(".function_box .ledea").hide()
+            $('.funct-div').animate({
+                height:'0',
+                padding:'0 1.3rem',
+            })
+            $(".chat_box").animate({
+                "padding-bottom":"2.5rem"
+            })
+            $('#choice_i').addClass('tures')
+        }
+    })
+
+    // 点击发送消息---------------------------------------------------------------
+    // $('.fason_but').on('click',function(){
+    //     console.log($("#saytext").val())
+    //     var texts=$("#saytext").val()
+    //     // 创建自己发的消息
+    //     var lea=
+    //             '<div class="lita flex flex-ends">'
+    //                 +'<div class="lita_contenr redright_box margino0">'
+    //                     +'<p class="nameid">姓名</p>'
+    //                     +'<div class="news_box flex">'
+    //                         +'<p>'
+    //                             +texts
+    //                         +'</p>'    
+    //                         +'<div class="sanjiao rightsan"></div>'
+    //                     +'</div>'
+    //                 +'</div>'
+    //                 +'<div class="lita_img">'
+    //                     +'<img src="" alt="">'
+    //                 +'</div>'
+    //             +'</div>'
+    //     $('.chat_div>div').last().after(lea)
+    //     // -------------------------------------
+    //     $("#saytext").val('')
+    //     $(".fason_but").hide()
+    //     $(".function_box .ledea").show()
+    //     console.log($('.chat_div').scrollTop())
+    // })
+
+    //页面跳转--------------------------------------------------------------------
+    $('.gosetup').click(function(){
+        // window.location.href = "../app/index.php?i=96&c=entry&m=wx_shop&do=mobile&r=red_paper.setup&mid=4004";
+        $('.setup_box').show()
+        $('.zhuye-box,.martop').hide()
+    })
+
+    $(".goup").on("click",function(){
+        $('.setup_box').hide()
+        $('.zhuye-box,.martop').show()
+    })
+
+    var x=0;
+    $('#choice_i').addClass('tures')
+    $('#choice_i').click(function(){
+        $('.emre_bq-box').hide()
+        if($('#choice_i').hasClass('tures')==true){
+            $('.funct-div').show()
+            $('.funct-div').animate({
+                height:'10.7rem',
+                padding:'1.3rem',
+            })
+            $(".chat_box").animate({
+                "padding-bottom":"12.5rem"
+            })
+            setTimeout("clock()",500);
+            $('#choice_i').removeClass('tures')
+        }else{
+            // $('.funct-div').hide()
+            $('.funct-div').animate({
+                height:'0',
+                padding:'0 1.3rem',
+            })
+            $(".chat_box").animate({
+                "padding-bottom":"2.5rem"
+            })
+            $('.chat_div').removeClass('laet')
+            $('#choice_i').addClass('tures')
+        }
+    })
+
+    // 弹出表情
+    $('.emotion').addClass('ture')
+    $('.emotion').click(function(){
+        $(".funct-div").hide()
+        if($('.emotion').hasClass('ture')==true){
+            $('.emre_bq-box').show()
+            $('.emre_bq-box').animate({
+                height:'10.7rem',
+                padding:'.75rem',
+            })
+            $(".chat_box").animate({
+                "padding-bottom":"12.5rem"
+            })
+            setTimeout("clock()",500);
+            $('.emotion').removeClass('ture')
+        }else{
+            // $('.funct-div').hide()
+            $('.emre_bq-box').animate({
+                height:'0',
+                padding:'0 .75rem',
+            })
+            $(".chat_box").animate({
+                "padding-bottom":"2.5rem"
+            })
+            $('.chat_div').removeClass('laet')
+            $('.emotion').addClass('ture')   
+        }
+    })
+
+    function clock(){
+        $('.chat_div').addClass('laet')
+    }
+
+    function buottlest(){
+        $(window).scrollTop(9000);   
+    }
+
+    $(".redbao-box .back").on('click',function(){
+        buottlest()
+    })
+</script>
+<script type="text/javascript">
+    $(function(){
+        $('.emotion').qqFace({
+            id : 'facebox', 
+            assign:'saytext', 
+            path:'../addons/wx_shop/plugin/red_paper/template/mobile/default/static/arclist/'	//表情存放的路径
+        });
+    });
+
+    //查看结果
+    function replace_em(str){
+        str = str.replace(/\</g,'&lt;');
+        str = str.replace(/\>/g,'&gt;');
+        str = str.replace(/\n/g,'<br/>');
+        str = str.replace(/\[em_([0-9]*)\]/g,'<img src="../addons/wx_shop/plugin/red_paper/template/mobile/default/static/arclist/$1.gif" border="0" />');
+        return str;
+    }
+
+    $(document).on("click",".leadsimg",function(){
+        $('.fason_but').show()
+        $(".function_box .ledea").hide()
+    })
+
+    $('.setup_xq_li .div1').on('click','.div2',function(){
+        $(this).toggleClass('close2')
+        $(this).parent().toggleClass('close1')
+    })
+
+    gundondao()
+
+    function right_xiaoxi(res){
+        var html = '';
+        if(res.source == 1){
+            html += res.text;
+            console.log(html)
+        }else {
+            html += '<img class="news_box_img" src="../attachment/'+res.images+'" alt="">' ;
+            console.log(html)
+        }
+        var rigth_xx = 
+                    '<div class="lita flex flex-ends">'
+                        +'<div class="lita_contenr redright_box margino0">'
+                            +'<p class="nameid">{$myname}</p>'
+                            +'<div class="news_box flex">'
+                                +'<p class="news_img">'+html+'</p>'    
+                                +'<div class="sanjiao rightsan"></div>'
+                            +'</div>'
+                        +'</div>'
+                        +'<div class="lita_img">'
+                            +'<img src="{$myavatar}" alt="">'
+                        +'</div>'
+                    '</div>'
+        $('.chat_div').append(rigth_xx)
+        gundondao()
+    }   
+
+    function left_xiaoxi(res){
+        var html = '';
+        if(res.source == 1){
+            html += res.text;
+            console.log(html)
+        }else {
+            html += '<img class="news_box_img" src="../attachment/'+res.images+'" alt="">' ;
+            console.log(html)
+        }
+        var left_xx = 
+                    '<div class="lita flex ">'
+                        +'<div class="lita_img">'
+                            +'<img src="../attachment/{$img}" alt="">'
+                        +'</div>'
+                        +'<div class="lita_contenr  margino0">'
+                            +'<p class="nameid">'+res.name+'</p>'
+                            +'<div class="news_box flex">'
+                                +'<div class="sanjiao "></div>'
+                                +'<p class="news_img">'+html+'</p>'                         
+                            +'</div>'
+                        +'</div>'
+                    '</div>'
+        $('.chat_div').append(left_xx)
+        gundondao()
+    }
+</script>
+
+<!-- <script type="text/javascript" src="../addons/wx_shop/plugin/red_paper/template/mobile/default/static/js/jquery.qqFace.js"></script> -->
+
+{template '_footer'}

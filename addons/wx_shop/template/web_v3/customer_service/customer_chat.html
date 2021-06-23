@@ -1,0 +1,565 @@
+{template '_header'}
+<link rel="stylesheet" href="../addons/wx_shop/static/css/flex.css">
+<style>
+.page-content_box {
+    width: 1098px;
+    height: 585px;
+    border: 1px solid #e6e6e6;
+}
+
+.page-content_left {
+    background: #1d95c9;
+    width: 220px;
+    height: 585px;
+    padding: 5px;
+}
+
+.page-content_box_ul {
+}
+
+.page-content_box_ul .page-content_box_li {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5px;
+    padding: 0 5px;
+    color: #ffffff;
+}
+
+.page-content_box_ul .page-content_box_li:hover {
+    background: #48bef2;
+    border-radius: 4px;
+}
+
+.page-content_box_ul .page-content_box_li img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+/* 搜索------------------------------------------ */
+.search_box {
+    width: 100%;
+    height: 30px;
+    background: #ffffff;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
+
+.search_box input {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.page-content_right {
+    width: 878px;
+    height: 585px;
+    /* background: yellow; */
+}
+
+.page-content_right .page-content_p {
+    width: 100%;
+    height: 41px;
+    line-height: 41px;
+    padding: 0 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.page-content_right .content_le_e {
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    background: #ffffff;
+    overflow: auto;
+}
+
+.img_box {
+    width: 100%;
+    height: 42px;
+    padding: 10px;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.img_box img {
+    width: 22px;
+    height: 22px;
+}
+
+.text_box {
+    width: 100%;
+    height: 102px;
+    padding: 10px;
+}
+
+.text_box textarea {
+    width: 90%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+
+.text_box button {
+    width: 8%;
+    height: 65px;
+    background: #1d95c9;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.content_le_e .news_left {
+    margin-bottom: 10px;
+}
+
+.news_left_img {
+    width: 45px;
+    height: 45px;
+    /* margin-right: 15px; */
+}
+
+.news_left div .news_content {
+    background: #68cffe;
+    display: inline-block;
+    padding: 5px;
+    max-width: 400px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.news_left .div_le {
+    margin: 0 15px;
+    text-align: right;
+}
+
+.news_left .div_left {
+    text-align: left;
+}
+
+.news_rigth {
+    justify-content: flex-end;
+}
+</style>
+<script type="text/javascript" src="../addons/wx_shop/template/mobile/default/static/jq/jquery-1.12.2.js"></script>
+<script src="../addons/wx_shop/template/mobile/default/static/js/ajaxfileupload.js"></script>
+<div class="page-header">当前位置：<span class="text-primary">客服聊天</span></div>
+<div class="page-content">
+    <div class="page-content_box flex">
+        <div class="page-content_left" style="overflow: hidden;"> 
+            <div class="search_box flex flex-center-align">
+                <!-- <input type="text" name="" id="" placeholder="搜索客户">
+                <i></i> -->
+            </div>
+            <ul class="page-content_box_ul" style="overflow: auto;height: 90%;">
+                {loop $list $l}
+                    <li class="page-content_box_li flex flex-jcsb flex-center-align" data-mid="{$l['mid']}" data-avatar="{$l['mavatar']}" data-name="{$l['mnickname']}">
+                        <span class="flex flex-center-align">
+                            <img src="{$l['mavatar']}" alt="">
+                            <p>{$l['mnickname']}</p>
+                        </span>
+                        <i></i>
+                    </li>
+                {/loop}
+
+                <!-- <li class="page-content_box_li flex flex-jcsb flex-center-align">
+                    <span class="flex flex-center-align">
+                        <img src="" alt="">
+                        <p>这是写名字的地</p>
+                    </span>
+                    <i></i>
+                </li> -->
+            </ul>
+        </div>
+        <div class="page-content_right">
+            <p class="page-content_p">正在与 {$name} 对话</p>
+            <div class="content_le_e">
+                {loop $lists $res}
+                    <!-- z左边的消息-->
+                    {if $res['source'] == 1}
+                        <!-- 右边的消息 -->
+                        <div class="news_left flex news_rigth ">
+                           <div class="div_le ">
+                              <p class="flex">
+                                  <span id="right_namexe">{$kefu['name']} {$res['createtime']}</span>
+                                  &nbsp;&nbsp;
+                              </p>
+                              <p class="news_content">
+                                  {if $res['type'] == 2}
+                                      <img   src="../attachment/{$res['images']}" alt="" width="100%">
+                                  {else}
+                                      {$res['text']}
+                                  {/if}
+                              </p>
+                           </div>
+                           <img class="news_left_img tolex_img"  src="../attachment/{$kefu['images']}" alt="">
+                        </div>
+                    {else}
+                        <!-- 左边的图片------------------------------- -->
+                        <div class="news_left flex  lexae">
+                            <img class="news_left_img " src="{$avatar}" alt="">
+                            <div class="div_le flex flex-col flex-end">
+                                <p class="flex">
+                                    <span >{$name} {$res['createtime']}</span>
+                                </p>
+                                <p class="news_content">
+                                      {if $res['type'] == 2}
+                                          <img src="../attachment/{$res['images']}" alt="" width="100%">
+                                      {else}
+                                          {$res['text']}
+                                      {/if}
+                                </p>
+                            </div>
+                        </div>
+                    {/if}
+                {/loop}
+                <!-- 右边的图片-->
+                <!-- <div class="news_left flex news_rigth ">
+                    <div class="div_le">
+                        <p class="flex">
+                            <span>我的名字</span>
+                            2019-6-10 17:05:48
+                        </p>
+                        <p class="news_content">
+                            <img src="" alt="">
+                        </p>
+                    </div>
+                    <img class="news_left_img" src="" alt="">
+                </div> -->
+            </div>
+            <input type="hidden" id='mid' value="{$mid}">
+            <div class="img_box">
+                <img src="" class="img" alt="">
+                <input type="file" name="imgFile0" id="imgFile0" style="display: none">
+                <input type="hidden" name="images" class="images" >
+            </div>
+            <div class="text_box flex flex-jcsb flex-center-align">
+                <textarea name="" id="send_text" cols="30" rows="10"></textarea>
+                <button id="send_but">发送</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    if (typeof console == "undefined") {    this.console = { log: function (msg) {  } };}
+    // 如果浏览器不支持websocket，会使用这个flash自动模拟websocket协议，此过程对开发者透明
+    // WEB_SOCKET_SWF_LOCATION = "/swf/WebSocketMain.swf";
+    // 开启flash的websocket debug
+    WEB_SOCKET_DEBUG = true;
+    var ws, name, client_list={};
+    var roomid = "{$roomid}";
+    // 连接服务端
+    function connect() {
+        // 创建websocket
+        ws = new WebSocket("ws://"+document.domain+":58120");
+        // 当socket连接打开时，输入用户名
+        ws.onopen = onopen;
+        // 当有消息时根据消息类型显示不同信息
+        ws.onmessage = onmessage; 
+        ws.onclose = function() {
+            console.log("连接关闭，定时重连");
+            connect();
+        };
+        ws.onerror = function() {
+            console.log("出现错误");
+        };
+    }
+
+    // 连接建立时发送登录信息
+    function onopen()
+    {
+        // if(!name)
+        // {
+        //     show_prompt();
+        // }
+        // 登录
+        var name = "{php echo $member['id']}";
+        var login_data = '{"type":"supper","uniacid":"{$_W['uniacid']}","suppid":"{$suppid}","source":"3"}';
+        // console.log("websocket握手成功，发送登录数据:"+login_data);
+        ws.send(login_data);
+    }
+
+    // 服务端发来消息时
+    function onmessage(e)
+    {
+        // console.log(e.data);
+        // alert(123)
+        var data = JSON.parse(e.data);
+        switch(data['type']){
+            // 服务端ping客户端
+            case 'ping':
+                ws.send('{"type":"pong"}');
+                break;
+            case 'tosayall':
+                  // alert(222222);
+                  // console.log(data)
+                if(data.types==1){
+                    right_xiaoxi(data);
+                    gundondao();
+                }else if(data.types==2){
+                    var mid = $('#mid').val();
+                    if(mid == data['mid']){
+                      left_xiaoxi(data);
+                    }
+                }
+                break;
+            // 用户退出 更新用户列表
+            case 'logout':
+                //{"type":"logout","client_id":xxx,"time":"xxx"}
+                say(data['from_client_id'], data['from_client_name'], data['from_client_name']+' 退出了', data['time']);
+                delete client_list[data['from_client_id']];
+                flush_client_list();
+        }
+    }
+
+    connect();
+
+    function sendinfo(data){
+        data =JSON.stringify(data);
+        ws.send(data);
+    }
+    $('#send_but').on('click',function(){
+        var xexae   =  $('#send_text').val();
+        var mid     =  $('#mid').val();
+        var type    =  1;
+        if(xexae == '' || xexae == undefined){
+            alert('提交信息不能为空');
+            return;
+        }
+        var id = $(this).attr('data-href');
+        $.ajax({
+            url:"{php echo WebUrl('customer_service.customer_chat.tosay')}",
+            type:"post",
+            dataType:"json",
+            data:{mid:mid,text:xexae,type:type},
+            success:function(data){
+                if(data.status == 1){
+                    // var res = data.result;
+                    // var sub = '{"type":"private","uniacid":"'+w.uniacid+'","uid":"'+res.uid+'","text":"'+res.text+'","room_id":"'+res.gid+'","types":"2","nickname":"'+res.nickname+'","avatar":"'+res.avatar+'","times":"'+res.times+'","mid":"'+uid+'"}';
+                    var data          = data.result.data;
+                    data['types']     = data['type'];
+                    data['type']      = 'tosayall';
+                    sendinfo(data)
+                    // console.log(data)
+                    if(data.source==1){
+                        // right_xiaoxi(data)
+                        // $('.lexae .news_left_img').attr('src',mid_img)
+                        // $('.tolex_img').attr('src',right_img)
+                        // $('.lexae .span').text(mid_name)
+                        // $('.right_namexe').text(right_namexs);
+                        gundondao()
+                    }else if(data.source==2){
+                        left_xiaoxi(data)
+                        // $('.lexae .news_left_img').attr('src',mid_img)
+                        // $('.tolex_img').attr('src',right_img)
+                        // $('.lexae span').text(mid_name)
+                        // $('.right_namexe').text(right_namexs);
+                      
+                    }
+                }else{
+                    alert(data.result.message);
+                }
+            }
+        });
+        gundondao()
+        // core.json('red_paper/touser/tosay', {
+        //       text  :xexae,
+        //       mid   :mid,
+        //       type  :type,
+        // }, function (ret) {
+        //    if(ret.status == 1){
+        //       console.log(re.result);
+        //    }else{
+        //       FoxUI.toast.show(ret.result.message);
+        //       return;
+        //    }
+        // })
+        // var  lexx=  '<div class="news_left flex news_rigth ">'
+        //                +'<div class="div_le flex flex-col flex-end">'
+        //                   +'<p class="flex"><span>我的名字</span>2019-6-10 17:05:48</p>'
+        //                   +'<p class="news_content">'+xexae+'</p>'
+        //                +'</div>'
+        //                +'<img class="news_left_img" src="" alt="">'
+        //             +'</div>'
+        //    $('.content_le_e').append(lexx)
+        //    $('#send_text').val("")
+    })
+
+    var  right_img= $('.tolex_img').attr('src')
+    var  right_namexs=$('#right_namexe').text();
+    $('.page-content_box_li').click(function(){
+        var mid = $(this).attr('data-mid');
+        var mid_img=$(this).attr('data-avatar');
+        var mid_name=$(this).attr('data-name');
+        var isclick= true;
+        $('#mid').val(mid)
+        $.ajax({
+            url:"{php echo webUrl('customer_service.customer_chat.getlist')}",
+            type:"post",
+            dataType:"json",
+            data:{mid:mid},
+            success:function(data){
+                if(data.status == 1){
+                $('.content_le_e').html("")
+                   // alert(1);
+                // console.log(mid)
+                // console.log(mid_img)
+                // console.log(mid_name)
+                // console.log( right_img)
+                // console.log(right_namexs)
+                // console.log(data.result.list.length)
+                for( var i=0;i<data.result.list.length;i++){
+                   // console.log(data.result)
+                   // console.log(data.result.list[i].source)
+                   if(data.result.list[i].source==1){
+                      right_xiaoxi(data.result.list[i])
+                      // $('.lexae .news_left_img').attr('src',mid_img)
+                      // $('.tolex_img').attr('src',right_img)
+                      // $('.lexae .span').text(mid_name)
+                      // $('.right_namexe').text(right_namexs);
+                   }else if(data.result.list[i].source==2){
+                      left_xiaoxi(data.result.list[i])
+                      // $('.lexae .news_left_img').attr('src',mid_img)
+                      // $('.tolex_img').attr('src',right_img)
+                      // $('.lexae span').text(mid_name)
+                      // $('.right_namexe').text(right_namexs);
+                      
+                   }
+                }
+                   
+                    gundondao();
+                }
+            }
+        });
+    });
+      
+    $('.img').click(function (){
+        $('#imgFile0').click();
+    })
+
+    $('#imgFile0').change(function(e){
+        var reader = new FileReader();
+        var file = e.target.files[0];
+        var imgPath = $(e.currentTarget).val();
+        //console.log(imgPath);
+        if (imgPath!="") {
+            //判断上传文件的后缀名
+            var strExtension = imgPath.substr(imgPath.lastIndexOf('.') + 1);
+            if ( !/jpe?g|gif|png|bmp/.test( strExtension.toLowerCase() ) ){
+                alert("请选择图片文件");
+                return;
+            }
+            $.ajaxFileUpload({
+                url: "{php echo webUrl('util/uploader')}",
+                data: {file: "imgFile0",type:'update',uid:"{$member['id']}"},
+                secureuri: false, 
+                fileElementId: 'imgFile0', 
+                dataType: 'json', 
+                success: function(res, status) {
+                    var mid     =  $('#mid').val();
+                    var xexae   =  $('#send_text').val();
+                    var images  =  res.filename;
+                    gundondao()
+                    $.ajax({
+                        url:"{php echo webUrl('customer_service.customer_chat.tosay')}",
+                        type:"post",
+                        dataType:"json",
+                        data:{mid:mid,images:images,type:2},
+                        success:function(data){
+                            if(data.status == 1){
+                                // var res = data.result;
+                                var data          = data.result.data;
+                                data['types']     = data['type'];
+                                data['type']      = 'tosayall';
+                                sendinfo(data)
+                                // var sub = '{"type":"private","uniacid":"'+w.uniacid+'","uid":"'+res.uid+'","text":"'+res.text+'","room_id":"'+res.gid+'","types":"2","nickname":"'+res.nickname+'","avatar":"'+res.avatar+'","times":"'+res.times+'","mid":"'+uid+'"}';
+                                // ws.send(sub);
+                                gundondao()
+                            }
+                        }
+                   });
+                }, error: function(data, status, e) {
+                    console.log(data);
+                    alert('上传失败!');
+                }
+            });
+        }
+    })
+
+    // 右边的消息
+    function right_xiaoxi(res){
+        var html = '';
+        // if(res.type==1||res.source == 1){
+        if(res.images == ''){
+           html += res.text;
+           // console.log(html)
+        }else {
+           html += '<img src="'+res.images+'" alt="" width="100%">' ;
+           // console.log(html)
+        }
+        var right_xx=  
+                     '<div class="news_left flex news_rigth ">'
+                        +'<div class="div_le">'
+                           +'<p class="flex">'
+                              +'<span class="right_namexe">'+res.name+' '+res.createtime+'</span>'
+                           +'</p>'
+                           +'<p class="news_content">'
+                              +html
+                           +'</p>'
+                        +'</div>'
+                        +'<img class="news_left_img tolex_img" src="'+res.avatar+'" alt="">'
+                     +'</div>'
+        $('.content_le_e').append(right_xx)
+        $('#send_text').val('')
+        // gundondao()
+        // console.log('执行右消息')
+    }
+    // 左边的消息
+    function left_xiaoxi(res){
+        var html = '';
+        // console.log(res);
+        // if(res.source == 1||res.type==1){
+        if(res.images == ''){
+           html += res.text;
+           // console.log(html)
+        }else {
+           html += '<img src="'+res.images+'" alt="" width="100%">' ;
+           // console.log(html)
+        }
+        var left_xx=
+                     '<div class="news_left flex  lexae ">'
+                        +'<img class="news_left_img" src="'+res.avatar+'" alt="">'
+                        +'<div class="div_le div_left">'
+                           +'<p class="flex">'
+                              +'<span>'+res.name+' '+res.createtime+'</span>'
+                           +'</p>'
+                           +'<p class="news_content">'
+                              +html
+                           +'</p>'
+                        +'</div>'
+                     +'</div>'
+        // console.log(left_xx)
+        $('.content_le_e').append(left_xx)
+        $('#send_text').val('')
+        // gundondao()
+        // console.log('执行做消息')
+    }
+
+    var isclick= true;
+    function gundondao(){
+       // if(isclick){
+          // isclick = false;
+          var milehe = $('.chat_div').height()
+          $('.content_le_e').animate({scrollTop:milehe+20000}, 'slow');
+          $('.martop').show()
+          console.log('执行滚动到底部')
+          return false;
+       // }
+    }
+    gundondao()
+</script>
+ 
+
+{template '_footer'}     
+

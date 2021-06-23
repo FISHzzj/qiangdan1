@@ -1,0 +1,78 @@
+{template '_header'}
+
+<div class="page-header">
+    当前位置：<span class="text-primary">{if !empty($level['id'])}编辑{else}添加{/if}理财设置</span>
+</div>
+
+<div class="page-content">
+    <div class="page-sub-toolbar">
+        <span class=''>
+            {ifp 'member.level.add'}
+                <a class="btn btn-primary btn-sm" href="{php echo webUrl('finance/transactions/add')}">添加理财设置</a>
+            {/if}
+        </span>
+    </div>
+    <form {ife 'member.level' $level}action="" method="post"{/if} class="form-horizontal form-validate" enctype="multipart/form-data">
+        <input type="hidden" name="id" value="{$ransactions['id']}" />
+      
+        <div class="form-group">
+            <label class="col-lg control-label must"> 理财天数</label>
+            <div class="col-sm-9 col-xs-12">
+                {ife 'member.level' $level}
+                    <input type="text" name="day" class="form-control" value="{$ransactions['day']}" data-rule-required="true" />
+                {else}
+                    <div class='form-control-static'>{$ransactions['day']}</div>
+                {/if}
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-lg control-label">年化率</label>
+            <div class="col-sm-9 col-xs-12">
+                <div class="input-group fixsingle-input-group">
+                    <input type="text" name="income_ratio" class="form-control" value="{$ransactions['income_ratio']}" />
+                    <div class="input-group-addon">%</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-lg control-label">理财金额</label>
+            <div class="col-sm-9 col-xs-12">
+                <div class="input-group fixsingle-input-group">
+                    <input type="text" name="min" class="form-control" value="{$ransactions['min']}" />
+                    <div class="input-group-addon">~</div>
+                    <input type="text" name="max" class="form-control" value="{$ransactions['max']}" />
+                </div>
+            </div>
+        </div>
+        <div class="form-group" {if $id=='default'}style="display: none;"{/if}>
+            <label class="col-lg control-label">状态</label>
+            <div class="col-sm-9 col-xs-12">
+                {ife 'shop.adv' $item}
+                    <label class='radio-inline'>
+                        <input type='radio' name='enabled' value=1' {if $ransactions['enabled']==1}checked{/if} /> 启用
+                    </label>
+                    <label class='radio-inline'>
+                        <input type='radio' name='enabled' value=0' {if $ransactions['enabled']==0}checked{/if} /> 禁用
+                    </label>
+                {else}
+                    <div class='form-control-static'>{if empty($ransactions['enabled'])}隐藏{else}显示{/if}</div>
+                {/if}
+            </div>
+        </div>
+        <div class="form-group"></div>
+        <div class="form-group">
+            <label class="col-lg control-label"></label>
+            <div class="col-sm-9 col-xs-12">
+                {ife 'member.level' $level}
+                    <input type="submit" value="提交" class="btn btn-primary"  />
+                {/if}
+                <input type="button" name="back" onclick='history.back()' {ifp 'member.level.add|member.level.edit'}style='margin-left:10px;'{/if} value="返回列表" class="btn btn-default" />
+            </div>
+        </div>
+    </form>
+
+</div>
+{template '_footer'}
+

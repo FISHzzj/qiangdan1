@@ -1,0 +1,749 @@
+2019-02-17 22:06:48 pid:5969 Workerman[start.php] start in DAEMON mode
+2019-02-20 00:56:39 pid:23336 Workerman[start.php] stop 
+2019-02-20 00:56:39 pid:23336 Workerman[start.php] is stopping ...
+2019-02-20 00:56:39 pid:5971 Workerman[start.php] stopping ...
+2019-02-20 00:56:39 pid:5971 Workerman[start.php] has been stopped
+2019-02-20 00:56:40 pid:23336 Workerman[start.php] stop success
+2019-02-20 00:57:06 pid:23343 Workerman[start.php] start in DAEMON mode
+2019-02-26 22:53:35 pid:6316 Workerman[start.php] stop 
+2019-02-26 22:53:35 pid:6316 Workerman[start.php] is stopping ...
+2019-02-26 22:53:35 pid:23345 Workerman[start.php] stopping ...
+2019-02-26 22:53:35 pid:23345 Workerman[start.php] has been stopped
+2019-02-26 22:53:35 pid:6316 Workerman[start.php] stop success
+2019-02-26 22:54:11 pid:6320 Workerman[start.php] start in DAEMON mode
+2019-02-26 22:55:48 pid:6338 Workerman[start.php] stop 
+2019-02-26 22:55:48 pid:6338 Workerman[start.php] is stopping ...
+2019-02-26 22:55:48 pid:6322 Workerman[start.php] stopping ...
+2019-02-26 22:55:48 pid:6322 Workerman[start.php] has been stopped
+2019-02-26 22:55:48 pid:6338 Workerman[start.php] stop success
+2019-02-26 22:55:56 pid:6339 Workerman[start.php] start in DAEMON mode
+2019-02-26 23:04:06 pid:6405 Workerman[start.php] stop 
+2019-02-26 23:04:06 pid:6405 Workerman[start.php] is stopping ...
+2019-02-26 23:04:06 pid:6341 Workerman[start.php] stopping ...
+2019-02-26 23:04:06 pid:6341 Workerman[start.php] has been stopped
+2019-02-26 23:04:06 pid:6405 Workerman[start.php] stop success
+2019-02-26 23:04:12 pid:6406 Workerman[start.php] start in DAEMON mode
+2019-02-26 23:04:24 pid:6408 worker[PHPSocketIO:6412] exit with status 139
+2019-02-26 23:04:29 pid:6408 worker[PHPSocketIO:6415] exit with status 139
+2019-02-26 23:04:38 pid:6408 worker[PHPSocketIO:6419] exit with status 139
+2019-02-26 23:11:47 pid:6408 worker[PHPSocketIO:6421] exit with status 139
+2019-02-26 23:11:47 pid:6408 worker[PHPSocketIO:6443] exit with status 139
+2019-02-26 23:11:48 pid:6408 worker[PHPSocketIO:6446] exit with status 139
+2019-02-26 23:11:59 pid:6449 Workerman[start.php] stop 
+2019-02-26 23:11:59 pid:6449 Workerman[start.php] is stopping ...
+2019-02-26 23:11:59 pid:6408 Workerman[start.php] stopping ...
+2019-02-26 23:11:59 pid:6408 worker[PHPSocketIO:6448] exit with status 139
+2019-02-26 23:11:59 pid:6408 Workerman[start.php] has been stopped
+2019-02-26 23:11:59 pid:6449 Workerman[start.php] stop success
+2019-02-26 23:12:20 pid:6451 Workerman[start.php] start in DAEMON mode
+2019-02-26 23:12:26 pid:6453 worker[PHPSocketIO:6456] exit with status 139
+2019-02-26 23:13:45 pid:6453 worker[PHPSocketIO:6460] exit with status 139
+2019-02-26 23:13:48 pid:6453 worker[PHPSocketIO:6468] exit with status 139
+2019-02-26 23:14:23 pid:6453 worker[PHPSocketIO:6471] exit with status 139
+2019-02-26 23:14:31 pid:6453 worker[PHPSocketIO:6476] exit with status 139
+2019-02-26 23:14:32 pid:6453 worker[PHPSocketIO:6479] exit with status 139
+2019-02-26 23:14:51 pid:6453 worker[PHPSocketIO:6481] exit with status 139
+2019-02-26 23:14:51 pid:6453 worker[PHPSocketIO:6484] exit with status 139
+2019-02-26 23:15:53 pid:6453 worker[PHPSocketIO:6487] exit with status 139
+2019-02-26 23:15:54 pid:6453 worker[PHPSocketIO:6496] exit with status 139
+2019-02-26 23:16:59 pid:6453 worker[PHPSocketIO:6499] exit with status 139
+2019-02-26 23:22:44 pid:6453 worker[PHPSocketIO:6501] exit with status 139
+2019-02-26 23:22:45 pid:6453 worker[PHPSocketIO:6548] exit with status 139
+2019-02-26 23:22:48 pid:6453 worker[PHPSocketIO:6551] exit with status 139
+2019-02-26 23:22:49 pid:6453 worker[PHPSocketIO:6555] exit with status 139
+2019-02-26 23:22:50 pid:6453 worker[PHPSocketIO:6557] exit with status 139
+2019-02-26 23:22:51 pid:6453 worker[PHPSocketIO:6559] exit with status 139
+2019-02-26 23:22:52 pid:6453 worker[PHPSocketIO:6563] exit with status 139
+2019-02-26 23:22:57 pid:6453 worker[PHPSocketIO:6565] exit with status 139
+2019-02-26 23:22:58 pid:6453 worker[PHPSocketIO:6569] exit with status 139
+2019-02-26 23:22:58 pid:6453 worker[PHPSocketIO:6571] exit with status 139
+2019-02-26 23:22:59 pid:6453 worker[PHPSocketIO:6573] exit with status 139
+2019-02-26 23:22:59 pid:6453 worker[PHPSocketIO:6577] exit with status 139
+2019-02-26 23:23:00 pid:6453 worker[PHPSocketIO:6579] exit with status 139
+2019-02-26 23:23:00 pid:6453 worker[PHPSocketIO:6581] exit with status 139
+2019-02-26 23:23:01 pid:6453 worker[PHPSocketIO:6583] exit with status 139
+2019-02-26 23:23:01 pid:6453 worker[PHPSocketIO:6585] exit with status 139
+2019-02-26 23:23:02 pid:6453 worker[PHPSocketIO:6587] exit with status 139
+2019-02-26 23:23:02 pid:6453 worker[PHPSocketIO:6589] exit with status 139
+2019-02-26 23:23:03 pid:6453 worker[PHPSocketIO:6591] exit with status 139
+2019-02-26 23:23:14 pid:6453 worker[PHPSocketIO:6595] exit with status 139
+2019-02-26 23:23:17 pid:6453 worker[PHPSocketIO:6601] exit with status 139
+2019-02-26 23:23:18 pid:6453 worker[PHPSocketIO:6607] exit with status 139
+2019-02-26 23:23:19 pid:6453 worker[PHPSocketIO:6611] exit with status 139
+2019-02-26 23:23:20 pid:6453 worker[PHPSocketIO:6613] exit with status 139
+2019-02-26 23:23:20 pid:6453 worker[PHPSocketIO:6615] exit with status 139
+2019-02-26 23:23:21 pid:6453 worker[PHPSocketIO:6617] exit with status 139
+2019-02-26 23:23:21 pid:6453 worker[PHPSocketIO:6619] exit with status 139
+2019-02-26 23:23:22 pid:6453 worker[PHPSocketIO:6623] exit with status 139
+2019-02-26 23:23:22 pid:6453 worker[PHPSocketIO:6625] exit with status 139
+2019-02-26 23:23:23 pid:6453 worker[PHPSocketIO:6627] exit with status 139
+2019-02-26 23:23:24 pid:6453 worker[PHPSocketIO:6629] exit with status 139
+2019-02-26 23:23:24 pid:6453 worker[PHPSocketIO:6631] exit with status 139
+2019-02-26 23:23:25 pid:6453 worker[PHPSocketIO:6633] exit with status 139
+2019-02-26 23:23:25 pid:6453 worker[PHPSocketIO:6635] exit with status 139
+2019-02-26 23:23:25 pid:6453 worker[PHPSocketIO:6637] exit with status 139
+2019-02-26 23:23:26 pid:6453 worker[PHPSocketIO:6641] exit with status 139
+2019-02-26 23:23:26 pid:6453 worker[PHPSocketIO:6643] exit with status 139
+2019-02-26 23:25:51 pid:6453 worker[PHPSocketIO:6645] exit with status 139
+2019-02-26 23:25:52 pid:6453 worker[PHPSocketIO:6730] exit with status 139
+2019-02-26 23:25:53 pid:6453 worker[PHPSocketIO:6733] exit with status 139
+2019-02-26 23:25:54 pid:6453 worker[PHPSocketIO:6737] exit with status 139
+2019-02-26 23:25:55 pid:6453 worker[PHPSocketIO:6739] exit with status 139
+2019-02-26 23:26:00 pid:6453 worker[PHPSocketIO:6741] exit with status 139
+2019-02-26 23:26:01 pid:6453 worker[PHPSocketIO:6747] exit with status 139
+2019-02-26 23:26:02 pid:6453 worker[PHPSocketIO:6751] exit with status 139
+2019-02-26 23:26:03 pid:6453 worker[PHPSocketIO:6753] exit with status 139
+2019-02-26 23:26:04 pid:6453 worker[PHPSocketIO:6757] exit with status 139
+2019-02-26 23:26:04 pid:6453 worker[PHPSocketIO:6759] exit with status 139
+2019-02-26 23:26:11 pid:6453 worker[PHPSocketIO:6761] exit with status 139
+2019-02-26 23:26:21 pid:6453 worker[PHPSocketIO:6768] exit with status 139
+2019-02-26 23:26:21 pid:6453 worker[PHPSocketIO:6777] exit with status 139
+2019-02-26 23:26:22 pid:6453 worker[PHPSocketIO:6779] exit with status 139
+2019-02-26 23:26:27 pid:6453 worker[PHPSocketIO:6782] exit with status 139
+2019-02-26 23:26:29 pid:6453 worker[PHPSocketIO:6789] exit with status 139
+2019-02-26 23:29:37 pid:6453 worker[PHPSocketIO:6793] exit with status 139
+2019-02-26 23:29:37 pid:6453 worker[PHPSocketIO:6911] exit with status 139
+2019-02-26 23:29:38 pid:6453 worker[PHPSocketIO:6915] exit with status 139
+2019-02-26 23:29:39 pid:6453 worker[PHPSocketIO:6917] exit with status 139
+2019-02-26 23:31:05 pid:6453 worker[PHPSocketIO:6921] exit with status 139
+2019-02-26 23:47:34 pid:6453 worker[PHPSocketIO:6986] exit with status 139
+2019-02-26 23:51:15 pid:6453 worker[PHPSocketIO:7309] exit with status 139
+2019-02-26 23:51:28 pid:7317 Workerman[start.php] stop 
+2019-02-26 23:51:28 pid:7317 Workerman[start.php] is stopping ...
+2019-02-26 23:51:28 pid:6453 Workerman[start.php] stopping ...
+2019-02-26 23:51:28 pid:6453 worker[PHPSocketIO:7314] exit with status 139
+2019-02-26 23:51:28 pid:6453 Workerman[start.php] has been stopped
+2019-02-26 23:51:28 pid:7317 Workerman[start.php] stop success
+2019-02-26 23:51:31 pid:7319 Workerman[start.php] start in DAEMON mode
+2019-02-26 23:51:36 pid:7321 worker[PHPSocketIO:7324] exit with status 139
+2019-02-26 23:51:43 pid:7321 worker[PHPSocketIO:7328] exit with status 139
+2019-02-26 23:51:52 pid:7321 worker[PHPSocketIO:7331] exit with status 139
+2019-02-26 23:51:59 pid:7321 worker[PHPSocketIO:7335] exit with status 139
+2019-02-26 23:52:05 pid:7321 worker[PHPSocketIO:7338] exit with status 139
+2019-02-26 23:52:06 pid:7321 worker[PHPSocketIO:7341] exit with status 139
+2019-02-26 23:52:07 pid:7321 worker[PHPSocketIO:7343] exit with status 139
+2019-02-26 23:57:33 pid:7321 worker[PHPSocketIO:7345] exit with status 139
+2019-02-26 23:57:45 pid:7321 worker[PHPSocketIO:7367] exit with status 139
+2019-02-27 00:03:22 pid:7415 Workerman[start.php] stop 
+2019-02-27 00:03:22 pid:7415 Workerman[start.php] is stopping ...
+2019-02-27 00:03:22 pid:7321 Workerman[start.php] stopping ...
+2019-02-27 00:03:22 pid:7321 worker[PHPSocketIO:7375] exit with status 139
+2019-02-27 00:03:22 pid:7321 Workerman[start.php] has been stopped
+2019-02-27 00:03:22 pid:7415 Workerman[start.php] stop success
+2019-02-27 00:03:27 pid:7419 Workerman[start.php] start in DAEMON mode
+2019-02-27 00:04:58 pid:7421 worker[PHPSocketIO:7424] exit with status 139
+2019-02-27 00:05:57 pid:7439 Workerman[start.php] stop 
+2019-02-27 00:05:57 pid:7439 Workerman[start.php] is stopping ...
+2019-02-27 00:05:57 pid:7421 Workerman[start.php] stopping ...
+2019-02-27 00:05:59 pid:7421 worker[PHPSocketIO:7430] exit with status 9
+2019-02-27 00:05:59 pid:7421 Workerman[start.php] has been stopped
+2019-02-27 00:05:59 pid:7439 Workerman[start.php] stop success
+2019-02-27 00:06:02 pid:7440 Workerman[start.php] start in DAEMON mode
+2019-02-27 00:07:37 pid:7442 worker[PHPSocketIO:7445] exit with status 139
+2019-02-27 00:20:59 pid:7442 worker[PHPSocketIO:7453] exit with status 139
+2019-02-27 00:33:50 pid:7503 Workerman[start.php] stop 
+2019-02-27 00:33:50 pid:7503 Workerman[start.php] is stopping ...
+2019-02-27 00:33:50 pid:7442 Workerman[start.php] stopping ...
+2019-02-27 00:33:52 pid:7442 worker[PHPSocketIO:7481] exit with status 9
+2019-02-27 00:33:52 pid:7442 Workerman[start.php] has been stopped
+2019-02-27 00:33:52 pid:7503 Workerman[start.php] stop success
+2019-02-27 00:33:58 pid:7504 Workerman[start.php] start in DAEMON mode
+2019-02-27 00:35:30 pid:7506 worker[PHPSocketIO:7509] exit with status 139
+2019-02-27 00:37:05 pid:7506 worker[PHPSocketIO:7515] exit with status 139
+2019-02-27 00:39:54 pid:7506 worker[PHPSocketIO:7521] exit with status 139
+2019-02-27 00:44:52 pid:7506 worker[PHPSocketIO:7524] exit with status 139
+2019-02-27 00:46:41 pid:7506 worker[PHPSocketIO:7542] exit with status 139
+2019-02-27 00:48:08 pid:7557 Workerman[start.php] start in DAEMON mode
+2019-02-27 00:48:08 pid:7557 Workerman[start.php] already running
+2019-02-27 00:48:15 pid:7558 Workerman[start.php] stop 
+2019-02-27 00:48:15 pid:7558 Workerman[start.php] is stopping ...
+2019-02-27 00:48:15 pid:7506 Workerman[start.php] stopping ...
+2019-02-27 00:48:17 pid:7506 worker[PHPSocketIO:7548] exit with status 9
+2019-02-27 00:48:17 pid:7506 Workerman[start.php] has been stopped
+2019-02-27 00:48:17 pid:7558 Workerman[start.php] stop success
+2019-02-27 00:48:26 pid:7559 Workerman[start.php] start in DAEMON mode
+2019-02-27 00:49:53 pid:7561 worker[PHPSocketIO:7564] exit with status 139
+2019-02-27 00:56:07 pid:7561 worker[PHPSocketIO:7570] exit with status 139
+2019-02-27 00:56:32 pid:7602 Workerman[start.php] stop 
+2019-02-27 00:56:32 pid:7602 Workerman[start.php] is stopping ...
+2019-02-27 00:56:32 pid:7561 Workerman[start.php] stopping ...
+2019-02-27 00:56:34 pid:7561 worker[PHPSocketIO:7596] exit with status 9
+2019-02-27 00:56:34 pid:7561 Workerman[start.php] has been stopped
+2019-02-27 00:56:34 pid:7602 Workerman[start.php] stop success
+2019-02-27 00:56:38 pid:7603 Workerman[start.php] start in DAEMON mode
+2019-02-27 00:56:44 pid:7605 worker[PHPSocketIO:7608] exit with status 139
+2019-02-27 00:56:55 pid:7605 worker[PHPSocketIO:7612] exit with status 139
+2019-02-27 00:57:02 pid:7605 worker[PHPSocketIO:7615] exit with status 139
+2019-02-27 00:57:19 pid:7605 worker[PHPSocketIO:7617] exit with status 139
+2019-02-27 00:57:26 pid:7605 worker[PHPSocketIO:7620] exit with status 139
+2019-02-27 00:57:27 pid:7605 worker[PHPSocketIO:7623] exit with status 139
+2019-02-27 00:57:28 pid:7605 worker[PHPSocketIO:7625] exit with status 139
+2019-02-27 00:57:29 pid:7605 worker[PHPSocketIO:7627] exit with status 139
+2019-02-27 00:57:29 pid:7605 worker[PHPSocketIO:7629] exit with status 139
+2019-02-27 00:57:29 pid:7605 worker[PHPSocketIO:7631] exit with status 139
+2019-02-27 00:57:30 pid:7605 worker[PHPSocketIO:7633] exit with status 139
+2019-02-27 00:57:30 pid:7605 worker[PHPSocketIO:7635] exit with status 139
+2019-02-27 00:57:31 pid:7605 worker[PHPSocketIO:7637] exit with status 139
+2019-02-27 00:57:31 pid:7605 worker[PHPSocketIO:7639] exit with status 139
+2019-02-27 00:58:29 pid:7605 worker[PHPSocketIO:7641] exit with status 139
+2019-02-27 00:58:41 pid:7605 worker[PHPSocketIO:7644] exit with status 139
+2019-02-27 01:00:10 pid:7605 worker[PHPSocketIO:7647] exit with status 139
+2019-02-27 01:00:13 pid:7605 worker[PHPSocketIO:7654] exit with status 139
+2019-02-27 01:01:44 pid:7673 Workerman[start.php] stop 
+2019-02-27 01:01:44 pid:7673 Workerman[start.php] is stopping ...
+2019-02-27 01:01:44 pid:7605 Workerman[start.php] stopping ...
+2019-02-27 01:01:45 pid:7605 worker[PHPSocketIO:7657] exit with status 139
+2019-02-27 01:01:45 pid:7605 Workerman[start.php] has been stopped
+2019-02-27 01:01:45 pid:7673 Workerman[start.php] stop success
+2019-02-27 01:01:49 pid:7677 Workerman[start.php] start in DAEMON mode
+2019-02-27 01:02:00 pid:7679 worker[PHPSocketIO:7682] exit with status 139
+2019-02-27 01:02:05 pid:7679 worker[PHPSocketIO:7685] exit with status 139
+2019-02-27 01:02:15 pid:7679 worker[PHPSocketIO:7690] exit with status 139
+2019-02-27 01:02:41 pid:7679 worker[PHPSocketIO:7693] exit with status 139
+2019-02-27 01:02:45 pid:7679 worker[PHPSocketIO:7696] exit with status 139
+2019-02-27 01:02:46 pid:7679 worker[PHPSocketIO:7701] exit with status 139
+2019-02-27 01:02:49 pid:7679 worker[PHPSocketIO:7703] exit with status 139
+2019-02-27 01:03:21 pid:7679 worker[PHPSocketIO:7705] exit with status 139
+2019-02-27 01:03:58 pid:7679 worker[PHPSocketIO:7709] exit with status 139
+2019-02-27 01:04:05 pid:7679 worker[PHPSocketIO:7714] exit with status 139
+2019-02-27 01:04:12 pid:7679 worker[PHPSocketIO:7717] exit with status 139
+2019-02-27 01:04:52 pid:7679 worker[PHPSocketIO:7719] exit with status 139
+2019-02-27 01:07:14 pid:7732 Workerman[start.php] stop 
+2019-02-27 01:07:14 pid:7732 Workerman[start.php] is stopping ...
+2019-02-27 01:07:14 pid:7679 Workerman[start.php] stopping ...
+2019-02-27 01:07:14 pid:7679 worker[PHPSocketIO:7724] exit with status 139
+2019-02-27 01:07:14 pid:7679 Workerman[start.php] has been stopped
+2019-02-27 01:07:14 pid:7732 Workerman[start.php] stop success
+2019-02-27 01:07:18 pid:7738 Workerman[start.php] start in DAEMON mode
+2019-02-27 01:07:30 pid:7740 worker[PHPSocketIO:7743] exit with status 139
+2019-02-27 01:09:07 pid:7747 Workerman[start.php] stop 
+2019-02-27 01:09:07 pid:7747 Workerman[start.php] is stopping ...
+2019-02-27 01:09:07 pid:7740 Workerman[start.php] stopping ...
+2019-02-27 01:09:08 pid:7740 worker[PHPSocketIO:7746] exit with status 139
+2019-02-27 01:09:08 pid:7740 Workerman[start.php] has been stopped
+2019-02-27 01:09:08 pid:7747 Workerman[start.php] stop success
+2019-02-27 01:09:13 pid:7751 Workerman[start.php] start in DAEMON mode
+2019-02-27 01:09:19 pid:7753 worker[PHPSocketIO:7756] exit with status 139
+2019-02-27 01:09:28 pid:7753 worker[PHPSocketIO:7759] exit with status 139
+2019-02-27 01:09:38 pid:7753 worker[PHPSocketIO:7762] exit with status 139
+2019-02-27 01:10:39 pid:7772 Workerman[start.php] stop 
+2019-02-27 01:10:39 pid:7772 Workerman[start.php] is stopping ...
+2019-02-27 01:10:39 pid:7753 Workerman[start.php] stopping ...
+2019-02-27 01:10:40 pid:7753 worker[PHPSocketIO:7765] exit with status 139
+2019-02-27 01:10:40 pid:7753 Workerman[start.php] has been stopped
+2019-02-27 01:10:40 pid:7772 Workerman[start.php] stop success
+2019-02-27 01:10:45 pid:7778 Workerman[start.php] start in DAEMON mode
+2019-02-27 01:11:38 pid:7787 Workerman[start.php] stop 
+2019-02-27 01:11:38 pid:7787 Workerman[start.php] is stopping ...
+2019-02-27 01:11:38 pid:7780 Workerman[start.php] stopping ...
+2019-02-27 01:11:40 pid:7780 worker[PHPSocketIO:7783] exit with status 9
+2019-02-27 01:11:40 pid:7780 Workerman[start.php] has been stopped
+2019-02-27 01:11:40 pid:7787 Workerman[start.php] stop success
+2019-02-27 01:11:45 pid:7788 Workerman[start.php] start in DAEMON mode
+2019-02-27 01:13:16 pid:7799 Workerman[start.php] stop 
+2019-02-27 01:13:16 pid:7799 Workerman[start.php] is stopping ...
+2019-02-27 01:13:16 pid:7790 Workerman[start.php] stopping ...
+2019-02-27 01:13:18 pid:7790 worker[PHPSocketIO:7793] exit with status 9
+2019-02-27 01:13:18 pid:7790 Workerman[start.php] has been stopped
+2019-02-27 01:13:18 pid:7799 Workerman[start.php] stop success
+2019-02-27 01:13:22 pid:7800 Workerman[start.php] start in DAEMON mode
+2019-02-27 01:15:02 pid:7802 worker[PHPSocketIO:7805] exit with status 139
+2019-02-27 01:15:34 pid:7815 Workerman[start.php] stop 
+2019-02-27 01:15:34 pid:7815 Workerman[start.php] is stopping ...
+2019-02-27 01:15:34 pid:7802 Workerman[start.php] stopping ...
+2019-02-27 01:15:36 pid:7802 worker[PHPSocketIO:7813] exit with status 9
+2019-02-27 01:15:36 pid:7802 Workerman[start.php] has been stopped
+2019-02-27 01:15:36 pid:7815 Workerman[start.php] stop success
+2019-05-23 16:27:21 pid:28675 Workerman[start_io.php] start in DAEMON mode
+2019-05-23 16:27:57 pid:28681 Workerman[start_io.php] stop 
+2019-05-23 16:27:57 pid:28681 Workerman[start_io.php] is stopping ...
+2019-05-23 16:27:57 pid:28677 Workerman[start_io.php] stopping ...
+2019-05-23 16:27:57 pid:28677 Workerman[start_io.php] has been stopped
+2019-05-23 16:27:57 pid:28681 Workerman[start_io.php] stop success
+2019-05-23 16:38:18 pid:28731 Workerman[start.php] start in DAEMON mode
+2019-05-23 16:42:48 pid:28769 Workerman[start.php] stop 
+2019-05-23 16:42:48 pid:28769 Workerman[start.php] is stopping ...
+2019-05-23 16:42:48 pid:28733 Workerman[start.php] stopping ...
+2019-05-23 16:42:48 pid:28733 Workerman[start.php] has been stopped
+2019-05-23 16:42:48 pid:28769 Workerman[start.php] stop success
+2019-05-23 16:43:22 pid:28770 Workerman[start.php] start in DAEMON mode
+2019-05-23 16:45:01 pid:28805 Workerman[start.php] stop 
+2019-05-23 16:45:01 pid:28805 Workerman[start.php] is stopping ...
+2019-05-23 16:45:01 pid:28772 Workerman[start.php] stopping ...
+2019-05-23 16:45:01 pid:28772 Workerman[start.php] has been stopped
+2019-05-23 16:45:01 pid:28805 Workerman[start.php] stop success
+2019-05-23 16:45:10 pid:28806 Workerman[start.php] start in DAEMON mode
+2019-05-23 16:51:04 pid:28838 Workerman[start.php] stop 
+2019-05-23 16:51:04 pid:28838 Workerman[start.php] is stopping ...
+2019-05-23 16:51:04 pid:28808 Workerman[start.php] stopping ...
+2019-05-23 16:51:04 pid:28808 Workerman[start.php] has been stopped
+2019-05-23 16:51:04 pid:28838 Workerman[start.php] stop success
+2019-05-23 16:51:12 pid:28839 Workerman[start.php] start in DAEMON mode
+2019-05-23 16:54:24 pid:28852 Workerman[start.php] stop 
+2019-05-23 16:54:24 pid:28852 Workerman[start.php] is stopping ...
+2019-05-23 16:54:24 pid:28841 Workerman[start.php] stopping ...
+2019-05-23 16:54:24 pid:28841 Workerman[start.php] has been stopped
+2019-05-23 16:54:24 pid:28852 Workerman[start.php] stop success
+2019-05-23 16:54:32 pid:28853 Workerman[start.php] start in DAEMON mode
+2019-05-23 16:58:47 pid:28874 Workerman[start.php] stop 
+2019-05-23 16:58:47 pid:28874 Workerman[start.php] is stopping ...
+2019-05-23 16:58:47 pid:28855 Workerman[start.php] stopping ...
+2019-05-23 16:58:47 pid:28855 Workerman[start.php] has been stopped
+2019-05-23 16:58:47 pid:28874 Workerman[start.php] stop success
+2019-05-23 16:58:52 pid:28875 Workerman[start.php] start in DAEMON mode
+2019-05-23 17:03:10 pid:28924 Workerman[start.php] stop 
+2019-05-23 17:03:10 pid:28924 Workerman[start.php] is stopping ...
+2019-05-23 17:03:10 pid:28877 Workerman[start.php] stopping ...
+2019-05-23 17:03:10 pid:28877 Workerman[start.php] has been stopped
+2019-05-23 17:03:10 pid:28924 Workerman[start.php] stop success
+2019-05-23 17:03:17 pid:28925 Workerman[start.php] start in DAEMON mode
+2019-05-23 17:03:49 pid:28947 Workerman[start.php] stop 
+2019-05-23 17:03:49 pid:28947 Workerman[start.php] is stopping ...
+2019-05-23 17:03:49 pid:28927 Workerman[start.php] stopping ...
+2019-05-23 17:03:49 pid:28927 Workerman[start.php] has been stopped
+2019-05-23 17:03:49 pid:28947 Workerman[start.php] stop success
+2019-05-23 17:03:54 pid:28948 Workerman[start.php] start in DAEMON mode
+2019-05-23 17:07:45 pid:28990 Workerman[start.php] stop 
+2019-05-23 17:07:45 pid:28990 Workerman[start.php] is stopping ...
+2019-05-23 17:07:45 pid:28950 Workerman[start.php] stopping ...
+2019-05-23 17:07:45 pid:28950 Workerman[start.php] has been stopped
+2019-05-23 17:07:45 pid:28990 Workerman[start.php] stop success
+2019-05-23 17:07:51 pid:28991 Workerman[start.php] start in DAEMON mode
+2019-05-25 14:16:18 pid:20679 Workerman[start.php] start in DAEMON mode
+2019-05-25 14:16:18 pid:20679 Workerman[start.php] already running
+2019-05-25 14:16:57 pid:20680 Workerman[start.php] start in DEBUG mode
+2019-05-25 14:16:57 pid:20680 Workerman[start.php] already running
+2019-05-25 14:17:25 pid:20689 Workerman[start.php] stop 
+2019-05-25 14:17:25 pid:20689 Workerman[start.php] is stopping ...
+2019-05-25 14:17:25 pid:28993 Workerman[start.php] stopping ...
+2019-05-25 14:17:25 pid:28993 Workerman[start.php] has been stopped
+2019-05-25 14:17:25 pid:20689 Workerman[start.php] stop success
+2019-05-25 14:17:33 pid:20690 Workerman[start.php] start in DAEMON mode
+2019-05-25 15:00:23 pid:21205 Workerman[start.php] stop 
+2019-05-25 15:00:23 pid:21205 Workerman[start.php] is stopping ...
+2019-05-25 15:00:23 pid:20692 Workerman[start.php] stopping ...
+2019-05-25 15:00:23 pid:20692 Workerman[start.php] has been stopped
+2019-05-25 15:00:23 pid:21205 Workerman[start.php] stop success
+2019-05-25 15:00:33 pid:21208 Workerman[start.php] start in DAEMON mode
+2019-05-25 15:03:00 pid:21244 Workerman[start.php] stop 
+2019-05-25 15:03:00 pid:21244 Workerman[start.php] is stopping ...
+2019-05-25 15:03:00 pid:21210 Workerman[start.php] stopping ...
+2019-05-25 15:03:00 pid:21210 Workerman[start.php] has been stopped
+2019-05-25 15:03:00 pid:21244 Workerman[start.php] stop success
+2019-05-25 15:03:05 pid:21245 Workerman[start.php] start in DAEMON mode
+2019-05-25 15:03:20 pid:21271 Workerman[start.php] stop 
+2019-05-25 15:03:20 pid:21271 Workerman[start.php] is stopping ...
+2019-05-25 15:03:20 pid:21247 Workerman[start.php] stopping ...
+2019-05-25 15:03:20 pid:21247 Workerman[start.php] has been stopped
+2019-05-25 15:03:20 pid:21271 Workerman[start.php] stop success
+2019-05-25 15:03:24 pid:21272 Workerman[start.php] start in DAEMON mode
+2019-05-25 15:14:05 pid:21417 Workerman[start.php] stop 
+2019-05-25 15:14:05 pid:21417 Workerman[start.php] is stopping ...
+2019-05-25 15:14:05 pid:21274 Workerman[start.php] stopping ...
+2019-05-25 15:14:05 pid:21274 Workerman[start.php] has been stopped
+2019-05-25 15:14:05 pid:21417 Workerman[start.php] stop success
+2019-05-25 15:14:12 pid:21418 Workerman[start.php] start in DAEMON mode
+2019-05-25 15:27:10 pid:21682 Workerman[start.php] stop 
+2019-05-25 15:27:10 pid:21682 Workerman[start.php] is stopping ...
+2019-05-25 15:27:10 pid:21420 Workerman[start.php] stopping ...
+2019-05-25 15:27:12 pid:21420 worker[PHPSocketIO:21423] exit with status 9
+2019-05-25 15:27:12 pid:21420 Workerman[start.php] has been stopped
+2019-05-25 15:27:12 pid:21682 Workerman[start.php] stop success
+2019-05-25 15:27:30 pid:21687 Workerman[start.php] start in DAEMON mode
+2019-05-25 15:30:11 pid:21765 Workerman[start.php] stop 
+2019-05-25 15:30:11 pid:21765 Workerman[start.php] is stopping ...
+2019-05-25 15:30:11 pid:21689 Workerman[start.php] stopping ...
+2019-05-25 15:30:13 pid:21689 worker[PHPSocketIO:21692] exit with status 9
+2019-05-25 15:30:13 pid:21689 Workerman[start.php] has been stopped
+2019-05-25 15:30:13 pid:21765 Workerman[start.php] stop success
+2019-05-25 15:31:20 pid:21788 Workerman[start.php] start in DAEMON mode
+2019-05-25 15:31:56 pid:21824 Workerman[start.php] stop 
+2019-05-25 15:31:56 pid:21824 Workerman[start.php] is stopping ...
+2019-05-25 15:31:56 pid:21790 Workerman[start.php] stopping ...
+2019-05-25 15:31:58 pid:21790 worker[PHPSocketIO:21793] exit with status 9
+2019-05-25 15:31:58 pid:21790 Workerman[start.php] has been stopped
+2019-05-25 15:31:58 pid:21824 Workerman[start.php] stop success
+2019-05-25 15:32:03 pid:21829 Workerman[start.php] start in DAEMON mode
+2019-05-25 15:41:25 pid:21998 Workerman[start.php] stop 
+2019-05-25 15:41:25 pid:21998 Workerman[start.php] is stopping ...
+2019-05-25 15:41:25 pid:21831 Workerman[start.php] stopping ...
+2019-05-25 15:41:25 pid:21831 Workerman[start.php] has been stopped
+2019-05-25 15:41:25 pid:21998 Workerman[start.php] stop success
+2019-05-25 15:41:42 pid:21999 Workerman[start.php] start in DAEMON mode
+2019-05-25 15:42:00 pid:22010 Workerman[start.php] stop 
+2019-05-25 15:42:00 pid:22010 Workerman[start.php] is stopping ...
+2019-05-25 15:42:00 pid:22001 Workerman[start.php] stopping ...
+2019-05-25 15:42:00 pid:22001 Workerman[start.php] has been stopped
+2019-05-25 15:42:00 pid:22010 Workerman[start.php] stop success
+2019-05-25 15:45:06 pid:22087 Workerman[start.php] start in DAEMON mode
+2019-05-25 15:50:40 pid:22222 Workerman[start.php] stop 
+2019-05-25 15:50:40 pid:22222 Workerman[start.php] is stopping ...
+2019-05-25 15:50:40 pid:22089 Workerman[start.php] stopping ...
+2019-05-25 15:50:42 pid:22089 worker[PHPSocketIO:22092] exit with status 9
+2019-05-25 15:50:42 pid:22089 Workerman[start.php] has been stopped
+2019-05-25 15:50:42 pid:22222 Workerman[start.php] stop success
+2019-05-25 15:50:47 pid:22225 Workerman[start.php] start in DAEMON mode
+2019-05-25 15:53:30 pid:22303 Workerman[start.php] stop 
+2019-05-25 15:53:30 pid:22303 Workerman[start.php] is stopping ...
+2019-05-25 15:53:30 pid:22227 Workerman[start.php] stopping ...
+2019-05-25 15:53:32 pid:22227 worker[PHPSocketIO:22230] exit with status 9
+2019-05-25 15:53:32 pid:22227 Workerman[start.php] has been stopped
+2019-05-25 15:53:32 pid:22303 Workerman[start.php] stop success
+2019-05-25 15:53:35 pid:22306 Workerman[start.php] start in DAEMON mode
+2019-05-25 15:55:28 pid:22359 Workerman[start.php] stop 
+2019-05-25 15:55:28 pid:22359 Workerman[start.php] is stopping ...
+2019-05-25 15:55:28 pid:22308 Workerman[start.php] stopping ...
+2019-05-25 15:55:30 pid:22308 worker[PHPSocketIO:22311] exit with status 9
+2019-05-25 15:55:30 pid:22308 Workerman[start.php] has been stopped
+2019-05-25 15:55:30 pid:22359 Workerman[start.php] stop success
+2019-05-25 15:56:45 pid:22390 Workerman[start.php] stop 
+2019-05-25 15:56:45 pid:22390 Workerman[start.php] not run
+2019-05-25 15:56:57 pid:22395 Workerman[start.php] start in DAEMON mode
+2019-05-25 15:59:34 pid:22458 Workerman[start.php] stop 
+2019-05-25 15:59:34 pid:22458 Workerman[start.php] is stopping ...
+2019-05-25 15:59:34 pid:22397 Workerman[start.php] stopping ...
+2019-05-25 15:59:36 pid:22397 worker[PHPSocketIO:22400] exit with status 9
+2019-05-25 15:59:36 pid:22397 Workerman[start.php] has been stopped
+2019-05-25 15:59:36 pid:22458 Workerman[start.php] stop success
+2019-05-25 16:03:27 pid:22558 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:03:50 pid:22571 Workerman[start.php] stop 
+2019-05-25 16:03:50 pid:22571 Workerman[start.php] is stopping ...
+2019-05-25 16:03:50 pid:22560 Workerman[start.php] stopping ...
+2019-05-25 16:03:50 pid:22560 Workerman[start.php] has been stopped
+2019-05-25 16:03:50 pid:22571 Workerman[start.php] stop success
+2019-05-25 16:04:00 pid:22576 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:05:49 pid:22597 Workerman[start.php] stop 
+2019-05-25 16:05:49 pid:22597 Workerman[start.php] is stopping ...
+2019-05-25 16:05:49 pid:22578 Workerman[start.php] stopping ...
+2019-05-25 16:05:51 pid:22578 worker[PHPSocketIO:22581] exit with status 9
+2019-05-25 16:05:51 pid:22578 Workerman[start.php] has been stopped
+2019-05-25 16:05:51 pid:22597 Workerman[start.php] stop success
+2019-05-25 16:05:57 pid:22598 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:07:06 pid:22617 Workerman[start.php] stop 
+2019-05-25 16:07:06 pid:22617 Workerman[start.php] is stopping ...
+2019-05-25 16:07:06 pid:22600 Workerman[start.php] stopping ...
+2019-05-25 16:07:08 pid:22600 worker[PHPSocketIO:22603] exit with status 9
+2019-05-25 16:07:08 pid:22600 Workerman[start.php] has been stopped
+2019-05-25 16:07:08 pid:22617 Workerman[start.php] stop success
+2019-05-25 16:07:11 pid:22620 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:07:49 pid:22639 Workerman[start.php] stop 
+2019-05-25 16:07:49 pid:22639 Workerman[start.php] is stopping ...
+2019-05-25 16:07:49 pid:22622 Workerman[start.php] stopping ...
+2019-05-25 16:07:51 pid:22622 worker[PHPSocketIO:22625] exit with status 9
+2019-05-25 16:07:51 pid:22622 Workerman[start.php] has been stopped
+2019-05-25 16:07:51 pid:22639 Workerman[start.php] stop success
+2019-05-25 16:07:57 pid:22642 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:10:10 pid:22665 Workerman[start.php] stop 
+2019-05-25 16:10:10 pid:22665 Workerman[start.php] is stopping ...
+2019-05-25 16:10:10 pid:22644 Workerman[start.php] stopping ...
+2019-05-25 16:10:10 pid:22644 Workerman[start.php] has been stopped
+2019-05-25 16:10:10 pid:22665 Workerman[start.php] stop success
+2019-05-25 16:10:37 pid:22674 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:11:27 pid:22689 Workerman[start.php] stop 
+2019-05-25 16:11:27 pid:22689 Workerman[start.php] is stopping ...
+2019-05-25 16:11:27 pid:22676 Workerman[start.php] stopping ...
+2019-05-25 16:11:29 pid:22676 worker[PHPSocketIO:22679] exit with status 9
+2019-05-25 16:11:29 pid:22676 Workerman[start.php] has been stopped
+2019-05-25 16:11:29 pid:22689 Workerman[start.php] stop success
+2019-05-25 16:11:33 pid:22692 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:12:50 pid:22710 Workerman[start.php] stop 
+2019-05-25 16:12:50 pid:22710 Workerman[start.php] is stopping ...
+2019-05-25 16:12:50 pid:22694 Workerman[start.php] stopping ...
+2019-05-25 16:12:52 pid:22694 worker[PHPSocketIO:22697] exit with status 9
+2019-05-25 16:12:52 pid:22694 Workerman[start.php] has been stopped
+2019-05-25 16:12:52 pid:22710 Workerman[start.php] stop success
+2019-05-25 16:12:58 pid:22711 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:13:57 pid:22732 Workerman[start.php] stop 
+2019-05-25 16:13:57 pid:22732 Workerman[start.php] is stopping ...
+2019-05-25 16:13:57 pid:22713 Workerman[start.php] stopping ...
+2019-05-25 16:13:59 pid:22713 worker[PHPSocketIO:22716] exit with status 9
+2019-05-25 16:13:59 pid:22713 Workerman[start.php] has been stopped
+2019-05-25 16:13:59 pid:22732 Workerman[start.php] stop success
+2019-05-25 16:14:09 pid:22735 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:14:51 pid:22748 Workerman[start.php] stop 
+2019-05-25 16:14:51 pid:22748 Workerman[start.php] is stopping ...
+2019-05-25 16:14:51 pid:22737 Workerman[start.php] stopping ...
+2019-05-25 16:14:53 pid:22737 worker[PHPSocketIO:22740] exit with status 9
+2019-05-25 16:14:53 pid:22737 Workerman[start.php] has been stopped
+2019-05-25 16:14:53 pid:22748 Workerman[start.php] stop success
+2019-05-25 16:14:56 pid:22749 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:17:06 pid:22774 Workerman[start.php] stop 
+2019-05-25 16:17:06 pid:22774 Workerman[start.php] is stopping ...
+2019-05-25 16:17:06 pid:22751 Workerman[start.php] stopping ...
+2019-05-25 16:17:06 pid:22751 Workerman[start.php] has been stopped
+2019-05-25 16:17:06 pid:22774 Workerman[start.php] stop success
+2019-05-25 16:17:11 pid:22777 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:29:31 pid:22903 Workerman[start.php] stop 
+2019-05-25 16:29:31 pid:22903 Workerman[start.php] is stopping ...
+2019-05-25 16:29:31 pid:22779 Workerman[start.php] stopping ...
+2019-05-25 16:29:33 pid:22779 worker[PHPSocketIO:22782] exit with status 9
+2019-05-25 16:29:33 pid:22779 Workerman[start.php] has been stopped
+2019-05-25 16:29:33 pid:22903 Workerman[start.php] stop success
+2019-05-25 16:29:37 pid:22905 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:34:12 pid:22976 Workerman[start.php] stop 
+2019-05-25 16:34:12 pid:22976 Workerman[start.php] is stopping ...
+2019-05-25 16:34:12 pid:22907 Workerman[start.php] stopping ...
+2019-05-25 16:34:14 pid:22907 worker[PHPSocketIO:22910] exit with status 9
+2019-05-25 16:34:14 pid:22907 Workerman[start.php] has been stopped
+2019-05-25 16:34:14 pid:22976 Workerman[start.php] stop success
+2019-05-25 16:34:21 pid:22979 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:42:16 pid:23096 Workerman[start.php] stop 
+2019-05-25 16:42:16 pid:23096 Workerman[start.php] is stopping ...
+2019-05-25 16:42:16 pid:22981 Workerman[start.php] stopping ...
+2019-05-25 16:42:16 pid:22981 Workerman[start.php] has been stopped
+2019-05-25 16:42:16 pid:23096 Workerman[start.php] stop success
+2019-05-25 16:42:22 pid:23097 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:43:19 pid:23110 Workerman[start.php] stop 
+2019-05-25 16:43:19 pid:23110 Workerman[start.php] is stopping ...
+2019-05-25 16:43:19 pid:23099 Workerman[start.php] stopping ...
+2019-05-25 16:43:19 pid:23099 Workerman[start.php] has been stopped
+2019-05-25 16:43:19 pid:23110 Workerman[start.php] stop success
+2019-05-25 16:43:23 pid:23111 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:44:07 pid:23120 Workerman[start.php] stop 
+2019-05-25 16:44:07 pid:23120 Workerman[start.php] is stopping ...
+2019-05-25 16:44:07 pid:23113 Workerman[start.php] stopping ...
+2019-05-25 16:44:07 pid:23113 Workerman[start.php] has been stopped
+2019-05-25 16:44:07 pid:23120 Workerman[start.php] stop success
+2019-05-25 16:44:15 pid:23125 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:45:13 pid:23157 Workerman[start.php] stop 
+2019-05-25 16:45:13 pid:23157 Workerman[start.php] is stopping ...
+2019-05-25 16:45:13 pid:23127 Workerman[start.php] stopping ...
+2019-05-25 16:45:13 pid:23127 Workerman[start.php] has been stopped
+2019-05-25 16:45:13 pid:23157 Workerman[start.php] stop success
+2019-05-25 16:45:17 pid:23160 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:45:50 pid:23169 Workerman[start.php] stop 
+2019-05-25 16:45:50 pid:23169 Workerman[start.php] is stopping ...
+2019-05-25 16:45:50 pid:23162 Workerman[start.php] stopping ...
+2019-05-25 16:45:50 pid:23162 Workerman[start.php] has been stopped
+2019-05-25 16:45:50 pid:23169 Workerman[start.php] stop success
+2019-05-25 16:45:55 pid:23170 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:49:22 pid:23211 Workerman[start.php] stop 
+2019-05-25 16:49:22 pid:23211 Workerman[start.php] is stopping ...
+2019-05-25 16:49:22 pid:23172 Workerman[start.php] stopping ...
+2019-05-25 16:49:22 pid:23172 Workerman[start.php] has been stopped
+2019-05-25 16:49:22 pid:23211 Workerman[start.php] stop success
+2019-05-25 16:49:28 pid:23212 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:50:27 pid:23225 Workerman[start.php] stop 
+2019-05-25 16:50:27 pid:23225 Workerman[start.php] is stopping ...
+2019-05-25 16:50:27 pid:23214 Workerman[start.php] stopping ...
+2019-05-25 16:50:27 pid:23214 Workerman[start.php] has been stopped
+2019-05-25 16:50:27 pid:23225 Workerman[start.php] stop success
+2019-05-25 16:50:32 pid:23226 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:51:15 pid:23238 Workerman[start.php] stop 
+2019-05-25 16:51:15 pid:23238 Workerman[start.php] is stopping ...
+2019-05-25 16:51:15 pid:23228 Workerman[start.php] stopping ...
+2019-05-25 16:51:15 pid:23228 Workerman[start.php] has been stopped
+2019-05-25 16:51:15 pid:23238 Workerman[start.php] stop success
+2019-05-25 16:51:21 pid:23244 Workerman[start.php] start in DAEMON mode
+2019-05-25 16:52:25 pid:23263 Workerman[start.php] stop 
+2019-05-25 16:52:25 pid:23263 Workerman[start.php] is stopping ...
+2019-05-25 16:52:25 pid:23246 Workerman[start.php] stopping ...
+2019-05-25 16:52:25 pid:23246 Workerman[start.php] has been stopped
+2019-05-25 16:52:25 pid:23263 Workerman[start.php] stop success
+2019-05-25 16:52:29 pid:23264 Workerman[start.php] start in DAEMON mode
+2019-05-25 17:01:12 pid:23412 Workerman[start.php] stop 
+2019-05-25 17:01:12 pid:23412 Workerman[start.php] is stopping ...
+2019-05-25 17:01:12 pid:23266 Workerman[start.php] stopping ...
+2019-05-25 17:01:12 pid:23266 Workerman[start.php] has been stopped
+2019-05-25 17:01:12 pid:23412 Workerman[start.php] stop success
+2019-05-25 17:01:21 pid:23415 Workerman[start.php] start in DAEMON mode
+2019-05-25 17:03:07 pid:23446 Workerman[start.php] stop 
+2019-05-25 17:03:07 pid:23446 Workerman[start.php] is stopping ...
+2019-05-25 17:03:07 pid:23417 Workerman[start.php] stopping ...
+2019-05-25 17:03:07 pid:23417 Workerman[start.php] has been stopped
+2019-05-25 17:03:07 pid:23446 Workerman[start.php] stop success
+2019-05-25 17:03:12 pid:23447 Workerman[start.php] start in DAEMON mode
+2019-05-25 17:04:13 pid:23462 Workerman[start.php] stop 
+2019-05-25 17:04:13 pid:23462 Workerman[start.php] is stopping ...
+2019-05-25 17:04:13 pid:23449 Workerman[start.php] stopping ...
+2019-05-25 17:04:13 pid:23449 Workerman[start.php] has been stopped
+2019-05-25 17:04:13 pid:23462 Workerman[start.php] stop success
+2019-05-25 17:04:17 pid:23464 Workerman[start.php] start in DAEMON mode
+2019-05-25 17:09:30 pid:23535 Workerman[start.php] stop 
+2019-05-25 17:09:30 pid:23535 Workerman[start.php] is stopping ...
+2019-05-25 17:09:30 pid:23466 Workerman[start.php] stopping ...
+2019-05-25 17:09:30 pid:23466 Workerman[start.php] has been stopped
+2019-05-25 17:09:30 pid:23535 Workerman[start.php] stop success
+2019-05-25 17:09:45 pid:23538 Workerman[start.php] start in DAEMON mode
+2019-05-25 17:34:03 pid:23771 Workerman[start.php] stop 
+2019-05-25 17:34:03 pid:23771 Workerman[start.php] is stopping ...
+2019-05-25 17:34:03 pid:23540 Workerman[start.php] stopping ...
+2019-05-25 17:34:03 pid:23540 Workerman[start.php] has been stopped
+2019-05-25 17:34:03 pid:23771 Workerman[start.php] stop success
+2019-05-25 17:34:08 pid:23772 Workerman[start.php] start in DAEMON mode
+2019-05-25 17:38:25 pid:23821 Workerman[start.php] stop 
+2019-05-25 17:38:25 pid:23821 Workerman[start.php] is stopping ...
+2019-05-25 17:38:25 pid:23774 Workerman[start.php] stopping ...
+2019-05-25 17:38:25 pid:23774 Workerman[start.php] has been stopped
+2019-05-25 17:38:25 pid:23821 Workerman[start.php] stop success
+2019-05-25 17:38:29 pid:23824 Workerman[start.php] start in DAEMON mode
+2019-05-27 20:08:21 pid:16943 Workerman[start.php] stop 
+2019-05-27 20:08:21 pid:16943 Workerman[start.php] is stopping ...
+2019-05-27 20:08:21 pid:23826 Workerman[start.php] stopping ...
+2019-05-27 20:08:21 pid:23826 Workerman[start.php] has been stopped
+2019-05-27 20:08:21 pid:16943 Workerman[start.php] stop success
+2019-05-27 20:08:30 pid:16944 Workerman[start.php] start in DAEMON mode
+2019-05-27 20:12:02 pid:16967 Workerman[start.php] stop 
+2019-05-27 20:12:02 pid:16967 Workerman[start.php] is stopping ...
+2019-05-27 20:12:02 pid:16946 Workerman[start.php] stopping ...
+2019-05-27 20:12:02 pid:16946 Workerman[start.php] has been stopped
+2019-05-27 20:12:02 pid:16967 Workerman[start.php] stop success
+2019-05-27 20:12:08 pid:16968 Workerman[start.php] start in DAEMON mode
+2019-05-27 20:13:55 pid:16981 Workerman[start.php] stop 
+2019-05-27 20:13:55 pid:16981 Workerman[start.php] is stopping ...
+2019-05-27 20:13:55 pid:16970 Workerman[start.php] stopping ...
+2019-05-27 20:13:55 pid:16970 Workerman[start.php] has been stopped
+2019-05-27 20:13:55 pid:16981 Workerman[start.php] stop success
+2019-05-27 20:14:02 pid:16982 Workerman[start.php] start in DAEMON mode
+2019-05-27 20:14:25 pid:17006 Workerman[start.php] stop 
+2019-05-27 20:14:25 pid:17006 Workerman[start.php] is stopping ...
+2019-05-27 20:14:25 pid:16984 Workerman[start.php] stopping ...
+2019-05-27 20:14:25 pid:16984 Workerman[start.php] has been stopped
+2019-05-27 20:14:25 pid:17006 Workerman[start.php] stop success
+2019-05-27 20:14:30 pid:17007 Workerman[start.php] start in DAEMON mode
+2019-05-31 17:24:52 pid:17009 Workerman[start.php] stopping ...
+2019-05-31 17:28:31 pid:2161 Workerman[start.php] start in DAEMON mode
+2019-06-03 10:25:43 pid:5877 Workerman[start.php] start in DAEMON mode
+2019-06-03 10:25:43 pid:5877 Workerman[start.php] already running
+2019-06-03 10:25:55 pid:5908 Workerman[start.php] stop 
+2019-06-03 10:25:55 pid:5908 Workerman[start.php] is stopping ...
+2019-06-03 10:26:00 pid:5908 Workerman[start.php] stop fail
+2019-06-03 10:26:08 pid:5920 Workerman[start.php] stop 
+2019-06-03 10:26:08 pid:5920 Workerman[start.php] is stopping ...
+2019-06-03 10:26:13 pid:5920 Workerman[start.php] stop fail
+2019-06-03 10:30:20 pid:4685 Workerman[start.php] stop 
+2019-06-03 10:30:20 pid:4685 Workerman[start.php] not run
+2019-06-03 10:30:29 pid:4698 Workerman[start.php] start in DAEMON mode
+2019-06-03 11:41:25 pid:3336 Workerman[start.php] start in DAEMON mode
+2019-06-04 02:49:52 pid:7034 Workerman[start.php] start in DAEMON mode
+2019-06-04 04:09:51 pid:7036 Workerman[start.php] stopping ...
+2019-06-04 04:12:51 pid:2886 Workerman[start.php] start in DAEMON mode
+2019-06-04 10:32:24 pid:15521 Workerman[start.php] start in DAEMON mode
+2019-06-04 10:32:24 pid:15521 Workerman[start.php] already running
+2019-06-04 10:32:33 pid:15522 Workerman[start.php] stop 
+2019-06-04 10:32:33 pid:15522 Workerman[start.php] is stopping ...
+2019-06-04 10:32:33 pid:2888 Workerman[start.php] stopping ...
+2019-06-04 10:32:33 pid:2888 Workerman[start.php] has been stopped
+2019-06-04 10:32:33 pid:15522 Workerman[start.php] stop success
+2019-06-04 10:32:39 pid:15530 Workerman[start.php] start in DAEMON mode
+2019-06-05 14:09:07 pid:15387 Workerman[start.php] start in DAEMON mode
+2019-09-16 11:50:01 pid:18724 Workerman[start.php] start in DEBUG mode
+2019-09-16 11:50:02 pid:18724 Workerman[start.php] stopping ...
+2019-09-16 11:50:02 pid:18724 Workerman[start.php] has been stopped
+2019-09-16 11:50:04 pid:18738 Workerman[start.php] start in DAEMON mode
+2019-09-24 11:01:44 pid:26481 Workerman[start.php] stop 
+2019-09-24 11:01:44 pid:26481 Workerman[start.php] not run
+2019-09-24 11:01:44 pid:26482 Workerman[start.php] start in DAEMON mode
+2019-09-24 15:55:21 pid:11230 Workerman[start.php] stop 
+2019-09-24 15:55:21 pid:11230 Workerman[start.php] not run
+2019-09-24 15:55:21 pid:11231 Workerman[start.php] start in DAEMON mode
+2019-09-25 15:53:06 pid:3459 Workerman[start.php] stop 
+2019-09-25 15:53:06 pid:3459 Workerman[start.php] not run
+2019-09-25 15:53:06 pid:3460 Workerman[start.php] start in DAEMON mode
+2019-09-26 10:02:14 pid:3651 Workerman[start.php] stop 
+2019-09-26 10:02:14 pid:3651 Workerman[start.php] not run
+2019-09-26 10:02:14 pid:3652 Workerman[start.php] start in DAEMON mode
+2019-09-28 15:17:10 pid:3507 Workerman[start.php] stop 
+2019-09-28 15:17:10 pid:3507 Workerman[start.php] not run
+2019-09-28 15:17:10 pid:3508 Workerman[start.php] start in DAEMON mode
+2019-09-28 15:17:11 pid:3510 Workerman[start.php] stopping ...
+2019-09-28 15:17:11 pid:3510 Workerman[start.php] has been stopped
+2019-09-29 19:47:13 pid:29107 Workerman[start.php] start in DEBUG mode
+2019-09-29 19:47:14 pid:29107 Workerman[start.php] stopping ...
+2019-09-29 19:47:14 pid:29107 Workerman[start.php] has been stopped
+2019-09-29 19:47:15 pid:29117 Workerman[start.php] start in DAEMON mode
+2019-09-29 19:50:35 pid:29966 Workerman[start.php] stop 
+2019-09-29 19:50:35 pid:29966 Workerman[start.php] is stopping ...
+2019-09-29 19:50:35 pid:29119 Workerman[start.php] stopping ...
+2019-09-29 19:50:35 pid:29119 Workerman[start.php] has been stopped
+2019-09-29 19:50:35 pid:29966 Workerman[start.php] stop success
+2019-09-29 19:50:35 pid:29967 Workerman[start.php] start in DAEMON mode
+2019-09-30 14:31:00 pid:13044 Workerman[start.php] stop 
+2019-09-30 14:31:00 pid:13044 Workerman[start.php] is stopping ...
+2019-09-30 14:31:00 pid:29969 Workerman[start.php] stopping ...
+2019-09-30 14:31:00 pid:29969 Workerman[start.php] has been stopped
+2019-09-30 14:31:00 pid:13044 Workerman[start.php] stop success
+2019-09-30 14:31:00 pid:13045 Workerman[start.php] start in DAEMON mode
+2019-10-16 20:57:08 pid:13047 Workerman[start.php] stopping ...
+2019-10-17 14:39:40 pid:16027 Workerman[start.php] stop 
+2019-10-17 14:39:40 pid:16027 Workerman[start.php] not run
+2019-10-17 14:39:40 pid:16028 Workerman[start.php] start in DAEMON mode
+2019-10-22 15:30:24 pid:29355 Workerman[start.php] stop 
+2019-10-22 15:30:24 pid:29355 Workerman[start.php] is stopping ...
+2019-10-22 15:30:24 pid:29355 Workerman[start.php] stop success
+2019-10-22 15:30:24 pid:29357 Workerman[start.php] start in DAEMON mode
+2019-11-07 16:10:07 pid:32301 Workerman[start.php] stop 
+2019-11-07 16:10:07 pid:32301 Workerman[start.php] not run
+2019-11-07 16:10:07 pid:32302 Workerman[start.php] start in DAEMON mode
+2019-11-25 16:58:37 pid:19354 Workerman[start.php] stop 
+2019-11-25 16:58:37 pid:19354 Workerman[start.php] not run
+2019-11-25 16:58:37 pid:19391 Workerman[start.php] start in DAEMON mode
+2019-11-28 17:11:51 pid:10350 Workerman[start.php] stop 
+2019-11-28 17:11:51 pid:10350 Workerman[start.php] is stopping ...
+2019-11-28 17:11:51 pid:19396 Workerman[start.php] stopping ...
+2019-11-28 17:11:51 pid:19396 Workerman[start.php] has been stopped
+2019-11-28 17:11:51 pid:10350 Workerman[start.php] stop success
+2019-11-28 17:11:51 pid:10351 Workerman[start.php] start in DAEMON mode
+2019-12-11 15:59:48 pid:20327 Workerman[start.php] stop 
+2019-12-11 15:59:48 pid:20327 Workerman[start.php] not run
+2019-12-11 15:59:48 pid:20390 Workerman[start.php] start in DAEMON mode
+2019-12-11 19:20:11 pid:1135 Workerman[start.php] stop 
+2019-12-11 19:20:11 pid:1135 Workerman[start.php] is stopping ...
+2019-12-11 19:20:11 pid:20392 Workerman[start.php] stopping ...
+2019-12-11 19:20:11 pid:20392 Workerman[start.php] has been stopped
+2019-12-11 19:20:11 pid:1135 Workerman[start.php] stop success
+2019-12-11 19:20:11 pid:1138 Workerman[start.php] start in DAEMON mode
+2019-12-12 10:34:50 pid:15421 Workerman[start.php] stop 
+2019-12-12 10:34:50 pid:15421 Workerman[start.php] is stopping ...
+2019-12-12 10:34:50 pid:1140 Workerman[start.php] stopping ...
+2019-12-12 10:34:50 pid:1140 Workerman[start.php] has been stopped
+2019-12-12 10:34:50 pid:15421 Workerman[start.php] stop success
+2019-12-12 10:34:50 pid:15426 Workerman[start.php] start in DAEMON mode
+2019-12-12 10:48:50 pid:11853 Workerman[start.php] stop 
+2019-12-12 10:48:50 pid:11853 Workerman[start.php] is stopping ...
+2019-12-12 10:48:50 pid:15428 Workerman[start.php] stopping ...
+2019-12-12 10:48:50 pid:15428 Workerman[start.php] has been stopped
+2019-12-12 10:48:50 pid:11853 Workerman[start.php] stop success
+2019-12-12 10:48:50 pid:11854 Workerman[start.php] start in DAEMON mode
+2019-12-12 18:52:45 pid:23156 Workerman[start.php] stop 
+2019-12-12 18:52:45 pid:23156 Workerman[start.php] is stopping ...
+2019-12-12 18:52:45 pid:11856 Workerman[start.php] stopping ...
+2019-12-12 18:52:45 pid:11856 Workerman[start.php] has been stopped
+2019-12-12 18:52:45 pid:23156 Workerman[start.php] stop success
+2019-12-12 18:52:45 pid:23157 Workerman[start.php] start in DAEMON mode
+2019-12-12 18:52:53 pid:23742 Workerman[start.php] stop 
+2019-12-12 18:52:53 pid:23742 Workerman[start.php] is stopping ...
+2019-12-12 18:52:53 pid:23159 Workerman[start.php] stopping ...
+2019-12-12 18:52:53 pid:23159 Workerman[start.php] has been stopped
+2019-12-12 18:52:53 pid:23742 Workerman[start.php] stop success
+2019-12-12 18:52:53 pid:23743 Workerman[start.php] start in DAEMON mode
+2019-12-19 14:10:09 pid:10003 Workerman[start.php] stop 
+2019-12-19 14:10:09 pid:10003 Workerman[start.php] not run
+2019-12-19 14:10:09 pid:10026 Workerman[start.php] start in DAEMON mode
+2019-12-23 11:25:55 pid:22024 Workerman[start.php] stop 
+2019-12-23 11:25:55 pid:22024 Workerman[start.php] not run
+2019-12-23 11:25:55 pid:22025 Workerman[start.php] start in DAEMON mode
+2019-12-24 16:11:36 pid:7308 Workerman[start.php] stop 
+2019-12-24 16:11:36 pid:7308 Workerman[start.php] is stopping ...
+2019-12-24 16:11:36 pid:22027 Workerman[start.php] stopping ...
+2019-12-24 16:11:36 pid:22027 Workerman[start.php] has been stopped
+2019-12-24 16:11:36 pid:7308 Workerman[start.php] stop success
+2019-12-24 16:11:36 pid:7309 Workerman[start.php] start in DAEMON mode
+2019-12-24 16:49:26 pid:12800 Workerman[start.php] stop 
+2019-12-24 16:49:26 pid:12800 Workerman[start.php] is stopping ...
+2019-12-24 16:49:26 pid:7311 Workerman[start.php] stopping ...
+2019-12-24 16:49:26 pid:7311 Workerman[start.php] has been stopped
+2019-12-24 16:49:26 pid:12800 Workerman[start.php] stop success
+2019-12-24 16:49:26 pid:12801 Workerman[start.php] start in DAEMON mode
+2020-03-16 14:34:49 pid:33742 Workerman[start.php] stop 
+2020-03-16 14:34:49 pid:33742 Workerman[start.php] not run
+2020-03-16 14:34:49 pid:33743 Workerman[start.php] start in DAEMON mode
+2020-03-28 15:51:38 pid:27750 Workerman[start.php] stop 
+2020-03-28 15:51:38 pid:27750 Workerman[start.php] not run
+2020-03-28 15:51:38 pid:27751 Workerman[start.php] start in DAEMON mode
+2020-04-24 11:06:28 pid:30989 Workerman[start.php] stop 
+2020-04-24 11:06:28 pid:30989 Workerman[start.php] not run
+2020-04-24 11:06:28 pid:30990 Workerman[start.php] start in DAEMON mode
+2020-04-27 19:04:56 pid:10335 Workerman[start.php] stop 
+2020-04-27 19:04:56 pid:10335 Workerman[start.php] not run
+2020-04-27 19:04:56 pid:10336 Workerman[start.php] start in DAEMON mode
